@@ -1,0 +1,137 @@
+{
+    "packages": {
+        "mygento/jquerylib": {
+            "1.11.3": {
+                "name": "mygento/jquerylib",
+                "version": "1.11.3",
+                "version_normalized": "1.11.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "8e22c412f8f78931e12d339d53a1e6cb93d194a6"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-30 10:59:26",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            },
+            "1.11.4": {
+                "name": "mygento/jquerylib",
+                "version": "1.11.4",
+                "version_normalized": "1.11.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "b4504618abf03b127efb9f86ed58f641eaf28a68"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-03-31 21:27:39",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            },
+            "dev-master": {
+                "name": "mygento/jquerylib",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "b4504618abf03b127efb9f86ed58f641eaf28a68"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-03-31 21:27:39",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            },
+            "dev-dev": {
+                "name": "mygento/jquerylib",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "ccd049d0db8eeec5d4f586883162880c7121b131"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-30 10:44:58",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            }
+        },
+        "mygento/metrika": {
+            "1.0.0": {
+                "name": "mygento/metrika",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "981345a5b36c98c06ca6ec683c239a95762c17eb"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-30 08:51:07",
+                "type": "magento-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            },
+            "dev-master": {
+                "name": "mygento/metrika",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "062bddebd2bc0df3b099bad001f4cf80c5849e26"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-23 20:43:05",
+                "type": "magento-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            }
+        }
+    }
+}
