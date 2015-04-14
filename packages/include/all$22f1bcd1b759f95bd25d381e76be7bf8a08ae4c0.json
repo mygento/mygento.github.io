@@ -1,5 +1,363 @@
 {
     "packages": {
+        "ecomdev/ecomdev_phpunit": {
+            "v0.3.0": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.0",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "21ae061c86c06820615e9fd54e372989cb8ed9df"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "dev-master",
+                    "phpunit/phpunit": "3.6.*"
+                },
+                "time": "2013-01-22 23:27:51",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.1": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.1",
+                "version_normalized": "0.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "585431d136df37bdb4dfee36cebfc77b099aa213"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-01-31 23:23:12",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.2": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.2",
+                "version_normalized": "0.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "57d3415166dd75f0e767a5ce238a101ef814e84f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-06-23 10:06:50",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.3": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.3",
+                "version_normalized": "0.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "3e82ed7e429c9cdcb7acc33d40403a3540434f8b"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-08-08 13:17:12",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.4": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.4",
+                "version_normalized": "0.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "80116f9b0b17c7b60c2ff2ca01278fc18e9535c3"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-15 15:05:26",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.5": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.5",
+                "version_normalized": "0.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "465d558c4bd70737bdd576251d37c24713da977c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-24 00:58:37",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.6": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.6",
+                "version_normalized": "0.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "3d1f512c912cecefce3852d477098f954f8e08de"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-29 18:07:13",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.7": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.7",
+                "version_normalized": "0.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "16ba4abbaee95ccc45b4543da6a9d30a5d0b34f5"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-31 09:24:26",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-master": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "1e69dbadf7e582fb0b6ad422dfff2f7ff154df8d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-31 09:23:50",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-dev": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "68bfe5b3e1ead58c850dd041a5e39d85297add40"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2015-03-31 22:12:58",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-feature/refactor-eav-fixture": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-feature/refactor-eav-fixture",
+                "version_normalized": "dev-feature/refactor-eav-fixture",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "f04361d9745ab5eed9c23bd04ced2dd64891f168"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-03-22 10:27:31",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-feature/refactor-fixtures": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-feature/refactor-fixtures",
+                "version_normalized": "dev-feature/refactor-fixtures",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "4968ea6fcb64a7d9667211f29294c7df17bea5a5"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-02-25 08:39:46",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-refactor": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-refactor",
+                "version_normalized": "dev-refactor",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "ef3c57353414f781ca57d3b1fdb7dfe7e5555872"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "dev-master",
+                    "phpunit/phpunit": "3.6.*"
+                },
+                "time": "2013-01-04 00:09:59",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            }
+        },
         "mygento/alfabank": {
             "dev-master": {
                 "name": "mygento/alfabank",
@@ -167,10 +525,10 @@
             }
         },
         "mygento/cdek": {
-            "dev-master": {
+            "3.0.0.5": {
                 "name": "mygento/cdek",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "3.0.0.5",
+                "version_normalized": "3.0.0.5",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
@@ -189,6 +547,38 @@
                     "squizlabs/php_codesniffer": "2.*"
                 },
                 "time": "2015-04-06 11:00:53",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "CDEK shipping module",
+                "homepage": "https://bitbucket.org/mygento/cdek"
+            },
+            "dev-master": {
+                "name": "mygento/cdek",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/cdek",
+                    "reference": "6c44440cb9896f20133e39885c286e7b10e5156e"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-10 09:32:01",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -287,6 +677,64 @@
                 ],
                 "description": "CDN module",
                 "homepage": "https://github.com/mygento/cdn.git"
+            }
+        },
+        "mygento/coding-standard": {
+            "1.0": {
+                "name": "mygento/coding-standard",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "target-dir": "Mygento-Mage1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/coding-standard",
+                    "reference": "59cf3f78e2e4e627c1acb351216065e53d9d69ec"
+                },
+                "require": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-14 09:43:06",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "homepage": "http://www.mygento.net",
+                        "email": "connect@mygento.net"
+                    }
+                ],
+                "description": "A set of PHP_CodeSniffer rules and sniffs",
+                "homepage": "https://github.com/mygento/coding-standard"
+            },
+            "dev-master": {
+                "name": "mygento/coding-standard",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Mygento-Mage1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/coding-standard",
+                    "reference": "59cf3f78e2e4e627c1acb351216065e53d9d69ec"
+                },
+                "require": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-14 09:43:06",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "homepage": "http://www.mygento.net",
+                        "email": "connect@mygento.net"
+                    }
+                ],
+                "description": "A set of PHP_CodeSniffer rules and sniffs",
+                "homepage": "https://github.com/mygento/coding-standard"
             }
         },
         "mygento/currency": {
@@ -546,7 +994,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/exgarant.git",
-                    "reference": "7ab654fc47b9a8fe35ea0c6248f692ae1145096c"
+                    "reference": "cec1b3b776270a498b9d84a7f9273780b52a79e4"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -560,7 +1008,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-06 15:58:50",
+                "time": "2015-04-13 12:22:11",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -641,6 +1089,39 @@
                 ],
                 "description": "Yandex Market Export module",
                 "homepage": "https://bitbucket.org/mygento/yandexpro"
+            },
+            "dev-unit_tests": {
+                "name": "mygento/exportymlpro",
+                "version": "dev-unit_tests",
+                "version_normalized": "dev-unit_tests",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "7dd9d11bbb656e36bb746ff9ef5e6b17b29e4f7c"
+                },
+                "require": {
+                    "ivanchepurnyi/ecomdev_phpunit": "dev-dev",
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-13 12:15:35",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
             }
         },
         "mygento/friendlycheckout": {
