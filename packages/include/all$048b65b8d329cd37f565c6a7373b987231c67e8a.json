@@ -620,14 +620,14 @@
                 "description": "CDN module",
                 "homepage": "https://github.com/mygento/cdn.git"
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "mygento/cdn",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "b5eb7b5a386b545cf15292c828b2a48934c81d06"
+                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -642,7 +642,40 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-14 10:34:36",
+                "time": "2015-04-15 11:42:29",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-15 11:42:29",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -1463,14 +1496,14 @@
                 "description": "Metrika Module",
                 "homepage": "https://github.com/mygento/metrika"
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "mygento/metrika",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/metrika",
-                    "reference": "062bddebd2bc0df3b099bad001f4cf80c5849e26"
+                    "reference": "aa426b0743d45400577bc1961cfa9dfe9acb9e9c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -1479,13 +1512,50 @@
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-03-23 20:43:05",
+                "time": "2015-04-18 19:55:57",
                 "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            },
+            "dev-master": {
+                "name": "mygento/metrika",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "c9a374318d0494cbb679bb35e14e0c154c23ef91"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-18 20:00:27",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
                 "license": [
                     "GPLv3"
                 ],

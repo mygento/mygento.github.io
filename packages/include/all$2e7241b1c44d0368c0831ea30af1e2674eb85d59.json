@@ -1,0 +1,1855 @@
+{
+    "packages": {
+        "ecomdev/ecomdev_phpunit": {
+            "v0.3.0": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.0",
+                "version_normalized": "0.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "21ae061c86c06820615e9fd54e372989cb8ed9df"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "dev-master",
+                    "phpunit/phpunit": "3.6.*"
+                },
+                "time": "2013-01-22 23:27:51",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.1": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.1",
+                "version_normalized": "0.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "585431d136df37bdb4dfee36cebfc77b099aa213"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-01-31 23:23:12",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.2": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.2",
+                "version_normalized": "0.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "57d3415166dd75f0e767a5ce238a101ef814e84f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-06-23 10:06:50",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.3": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.3",
+                "version_normalized": "0.3.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "3e82ed7e429c9cdcb7acc33d40403a3540434f8b"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-08-08 13:17:12",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.4": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.4",
+                "version_normalized": "0.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "80116f9b0b17c7b60c2ff2ca01278fc18e9535c3"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-15 15:05:26",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.5": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.5",
+                "version_normalized": "0.3.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "465d558c4bd70737bdd576251d37c24713da977c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-24 00:58:37",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.6": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.6",
+                "version_normalized": "0.3.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "3d1f512c912cecefce3852d477098f954f8e08de"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-29 18:07:13",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "v0.3.7": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "v0.3.7",
+                "version_normalized": "0.3.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "16ba4abbaee95ccc45b4543da6a9d30a5d0b34f5"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-31 09:24:26",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-master": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "1e69dbadf7e582fb0b6ad422dfff2f7ff154df8d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2014-10-31 09:23:50",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-dev": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "68bfe5b3e1ead58c850dd041a5e39d85297add40"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "replace": {
+                    "ivanchepurnyi/ecomdev_phpunit": "*"
+                },
+                "time": "2015-03-31 22:12:58",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-feature/refactor-eav-fixture": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-feature/refactor-eav-fixture",
+                "version_normalized": "dev-feature/refactor-eav-fixture",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "f04361d9745ab5eed9c23bd04ced2dd64891f168"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-03-22 10:27:31",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-feature/refactor-fixtures": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-feature/refactor-fixtures",
+                "version_normalized": "dev-feature/refactor-fixtures",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "4968ea6fcb64a7d9667211f29294c7df17bea5a5"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-02-25 08:39:46",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            },
+            "dev-refactor": {
+                "name": "ecomdev/ecomdev_phpunit",
+                "version": "dev-refactor",
+                "version_normalized": "dev-refactor",
+                "source": {
+                    "type": "git",
+                    "url": "http://github.com/EcomDev/EcomDev_PHPUnit.git",
+                    "reference": "ef3c57353414f781ca57d3b1fdb7dfe7e5555872"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "dev-master",
+                    "phpunit/phpunit": "3.6.*"
+                },
+                "time": "2013-01-04 00:09:59",
+                "type": "magento-module",
+                "license": [
+                    "OSL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Ivan Chepurnyi"
+                    }
+                ],
+                "description": "Magento PHPUnit Integration",
+                "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
+            }
+        },
+        "mygento/alfabank": {
+            "dev-master": {
+                "name": "mygento/alfabank",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/alfabank",
+                    "reference": "5155c9cf49f300fcf1363983d3ddb9e9aeceea2e"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-24 13:46:18",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "alfabank payment module",
+                "homepage": "https://bitbucket.org/mygento/alfabank"
+            }
+        },
+        "mygento/avangard": {
+            "dev-master": {
+                "name": "mygento/avangard",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/avangard",
+                    "reference": "023757fe6240d3863e8d2b23a40cc94b8d6895ee"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-06 09:30:39",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Avangard payment module",
+                "homepage": "https://bitbucket.org/mygento/avangard"
+            }
+        },
+        "mygento/base": {
+            "1.0.3": {
+                "name": "mygento/base",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/base",
+                    "reference": "0fbd247628a4040fad7d690eba91ed213d68f0bd"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-01 10:22:06",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Mygento base",
+                "homepage": "https://bitbucket.org/mygento/base"
+            },
+            "1.0.4": {
+                "name": "mygento/base",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/base",
+                    "reference": "8d4255829b2c3627ae2fc8378407f877c14b9e5c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 10:40:23",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Mygento base",
+                "homepage": "https://github.com/mygento/base"
+            },
+            "dev-master": {
+                "name": "mygento/base",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/base",
+                    "reference": "8d4255829b2c3627ae2fc8378407f877c14b9e5c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 10:40:23",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Mygento base",
+                "homepage": "https://github.com/mygento/base"
+            }
+        },
+        "mygento/cdek": {
+            "3.0.0.5": {
+                "name": "mygento/cdek",
+                "version": "3.0.0.5",
+                "version_normalized": "3.0.0.5",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/cdek",
+                    "reference": "27b4a40a15bd521c0b87090afedd99229c4ffe14"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-06 11:00:53",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "CDEK shipping module",
+                "homepage": "https://bitbucket.org/mygento/cdek"
+            },
+            "dev-master": {
+                "name": "mygento/cdek",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/cdek",
+                    "reference": "6c44440cb9896f20133e39885c286e7b10e5156e"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-10 09:32:01",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "CDEK shipping module",
+                "homepage": "https://bitbucket.org/mygento/cdek"
+            }
+        },
+        "mygento/cdn": {
+            "1.0.0": {
+                "name": "mygento/cdn",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "0ec73ea560ae833f63aaf03c8d42fddb1adc1916"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 15:03:26",
+                "type": "magento-module",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "1.1.0": {
+                "name": "mygento/cdn",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-15 11:42:29",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-15 11:42:29",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "dev-devel": {
+                "name": "mygento/cdn",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "0ec73ea560ae833f63aaf03c8d42fddb1adc1916"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 15:03:26",
+                "type": "magento-module",
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "dev-test": {
+                "name": "mygento/cdn",
+                "version": "dev-test",
+                "version_normalized": "dev-test",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-15 11:42:29",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            }
+        },
+        "mygento/coding-standard": {
+            "1.0": {
+                "name": "mygento/coding-standard",
+                "version": "1.0",
+                "version_normalized": "1.0.0.0",
+                "target-dir": "Mygento-Mage1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/coding-standard",
+                    "reference": "59cf3f78e2e4e627c1acb351216065e53d9d69ec"
+                },
+                "require": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-14 09:43:06",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "homepage": "http://www.mygento.net",
+                        "email": "connect@mygento.net"
+                    }
+                ],
+                "description": "A set of PHP_CodeSniffer rules and sniffs",
+                "homepage": "https://github.com/mygento/coding-standard"
+            },
+            "1.1": {
+                "name": "mygento/coding-standard",
+                "version": "1.1",
+                "version_normalized": "1.1.0.0",
+                "target-dir": "Mygento-Mage1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/coding-standard",
+                    "reference": "c9d9a3ec866fca8ba933f4b1712cbe22a7dac547"
+                },
+                "require": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-15 08:52:36",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "homepage": "http://www.mygento.net",
+                        "email": "connect@mygento.net"
+                    }
+                ],
+                "description": "A set of PHP_CodeSniffer rules and sniffs",
+                "homepage": "https://github.com/mygento/coding-standard"
+            },
+            "dev-master": {
+                "name": "mygento/coding-standard",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Mygento-Mage1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/coding-standard",
+                    "reference": "c9d9a3ec866fca8ba933f4b1712cbe22a7dac547"
+                },
+                "require": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-15 08:52:36",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "homepage": "http://www.mygento.net",
+                        "email": "connect@mygento.net"
+                    }
+                ],
+                "description": "A set of PHP_CodeSniffer rules and sniffs",
+                "homepage": "https://github.com/mygento/coding-standard"
+            }
+        },
+        "mygento/currency": {
+            "dev-master": {
+                "name": "mygento/currency",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/currency",
+                    "reference": "204a0f72e536214d8b4c71c932b735f1f60f5448"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-19 12:01:26",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Курс валюты ЦБРФ",
+                "homepage": "https://github.com/mygento/currency.git"
+            },
+            "dev-devel": {
+                "name": "mygento/currency",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/currency",
+                    "reference": "cd13fa44121cbb9eec7bf7099285f4857ad278de"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "magento-ecg/coding-standard": "dev-master",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-19 08:40:52",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Курс валюты ЦБРФ",
+                "homepage": "https://github.com/mygento/currency.git"
+            }
+        },
+        "mygento/dpd": {
+            "1.3.1": {
+                "name": "mygento/dpd",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "1105f563cfdb093c14ea140a7e027c5f88fb43cc"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "magento-ecg/coding-standard": "dev-master",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-20 13:30:17",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
+            },
+            "2.0": {
+                "name": "mygento/dpd",
+                "version": "2.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "bc5bbea42e5a08529efc80d9e45c647106d2d2ed"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-31 10:26:14",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
+            },
+            "2.0.1": {
+                "name": "mygento/dpd",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "5c3d05f9d7d26a368f093c0b04d4b738a7c4c59a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-05 17:47:01",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
+            },
+            "2.0.2": {
+                "name": "mygento/dpd",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "24c351e4a759641d52dd37d029a88c483fc3d28a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-08 10:33:28",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
+            },
+            "dev-master": {
+                "name": "mygento/dpd",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "24c351e4a759641d52dd37d029a88c483fc3d28a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-08 10:33:28",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
+            },
+            "dev-devel": {
+                "name": "mygento/dpd",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "5b77e62c5cd2d32f67f9c47b8df11029348ae4ab"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-30 15:29:03",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "DPD shipping module",
+                "homepage": "https://bitbucket.org/mygento/dpd"
+            }
+        },
+        "mygento/exgarant": {
+            "dev-master": {
+                "name": "mygento/exgarant",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/exgarant.git",
+                    "reference": "cec1b3b776270a498b9d84a7f9273780b52a79e4"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-13 12:22:11",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Ex-garant shipping module",
+                "homepage": "https://bitbucket.org/mygento/exgarant"
+            }
+        },
+        "mygento/exportymlpro": {
+            "2.5.0": {
+                "name": "mygento/exportymlpro",
+                "version": "2.5.0",
+                "version_normalized": "2.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "b359e1886e0c346e6a52dea1b9f1074d1e080d95"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-03-18 14:36:00",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro"
+            },
+            "2.5.1": {
+                "name": "mygento/exportymlpro",
+                "version": "2.5.1",
+                "version_normalized": "2.5.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "73bbd099d91a7080cf3ad5671b7a708d19791307"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-14 11:42:47",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro"
+            },
+            "4.0.x-dev": {
+                "name": "mygento/exportymlpro",
+                "version": "4.0.x-dev",
+                "version_normalized": "4.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "83fb2f9e0f439c767d6186c714e4c91fc97c9abf"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-16 09:38:59",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro"
+            },
+            "dev-master": {
+                "name": "mygento/exportymlpro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "73bbd099d91a7080cf3ad5671b7a708d19791307"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-14 11:42:47",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro"
+            },
+            "dev-unit_tests": {
+                "name": "mygento/exportymlpro",
+                "version": "dev-unit_tests",
+                "version_normalized": "dev-unit_tests",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "d666ad405a96eaec705118bc0dc7bc5c7b9e6b34"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-14 14:52:16",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro"
+            }
+        },
+        "mygento/friendlycheckout": {
+            "1.11.3": {
+                "name": "mygento/friendlycheckout",
+                "version": "1.11.3",
+                "version_normalized": "1.11.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/friendlycheckout.git",
+                    "reference": "ee587df072eff4d4442cfd2841978b278b26fb8f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-02-18 11:31:31",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Friendly Checkout",
+                "homepage": "https://bitbucket.org/mygento/friendlycheckout"
+            },
+            "2.0.0": {
+                "name": "mygento/friendlycheckout",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/friendlycheckout.git",
+                    "reference": "ee587df072eff4d4442cfd2841978b278b26fb8f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-02-18 11:31:31",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Friendly Checkout",
+                "homepage": "https://bitbucket.org/mygento/friendlycheckout"
+            },
+            "2.0.1": {
+                "name": "mygento/friendlycheckout",
+                "version": "2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/friendlycheckout.git",
+                    "reference": "adc73aaba8b525058b1ba7224f3d6d646035ec7f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-01 09:52:37",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Friendly Checkout",
+                "homepage": "https://bitbucket.org/mygento/friendlycheckout"
+            },
+            "2.0.2": {
+                "name": "mygento/friendlycheckout",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/friendlycheckout.git",
+                    "reference": "f21ef98330b2760521621594e801b2eea6354ea1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-01 10:05:36",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Friendly Checkout",
+                "homepage": "https://bitbucket.org/mygento/friendlycheckout"
+            },
+            "dev-master": {
+                "name": "mygento/friendlycheckout",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/friendlycheckout.git",
+                    "reference": "639c2d89c55be4379aa8316531cd282d99c913a9"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "mygento/base": "@stable",
+                    "mygento/jquerylib": "@stable"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 10:32:31",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Friendly Checkout",
+                "homepage": "https://bitbucket.org/mygento/friendlycheckout"
+            }
+        },
+        "mygento/jquerylib": {
+            "1.11.3": {
+                "name": "mygento/jquerylib",
+                "version": "1.11.3",
+                "version_normalized": "1.11.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "8e22c412f8f78931e12d339d53a1e6cb93d194a6"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-30 10:59:26",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            },
+            "1.11.4": {
+                "name": "mygento/jquerylib",
+                "version": "1.11.4",
+                "version_normalized": "1.11.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "b4504618abf03b127efb9f86ed58f641eaf28a68"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-03-31 21:27:39",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            },
+            "dev-master": {
+                "name": "mygento/jquerylib",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "b4504618abf03b127efb9f86ed58f641eaf28a68"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-03-31 21:27:39",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            },
+            "dev-dev": {
+                "name": "mygento/jquerylib",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/jquerylib",
+                    "reference": "ccd049d0db8eeec5d4f586883162880c7121b131"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-30 10:44:58",
+                "type": "magento-module",
+                "license": [
+                    "AFL v3.0"
+                ],
+                "description": "Jquery Integration",
+                "homepage": "https://github.com/mygento/jquerylib"
+            }
+        },
+        "mygento/metrika": {
+            "1.0.0": {
+                "name": "mygento/metrika",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "981345a5b36c98c06ca6ec683c239a95762c17eb"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "time": "2015-01-30 08:51:07",
+                "type": "magento-module",
+                "license": [
+                    "GPLv3"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            },
+            "1.1.0": {
+                "name": "mygento/metrika",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "25f6720a69302857974e7bc2cc7b74742dff92aa"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-18 19:51:11",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            },
+            "dev-master": {
+                "name": "mygento/metrika",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "25f6720a69302857974e7bc2cc7b74742dff92aa"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-18 19:51:11",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "GPLv3"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            }
+        },
+        "mygento/openid": {
+            "1.1.2": {
+                "name": "mygento/openid",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/openid.git",
+                    "reference": "343086dadf07645ce1ddf9fd6119ee4a78da9954"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-01 08:43:51",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "OpenID module",
+                "homepage": "https://bitbucket.org/mygento/openid"
+            },
+            "dev-master": {
+                "name": "mygento/openid",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/openid.git",
+                    "reference": "343086dadf07645ce1ddf9fd6119ee4a78da9954"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-01 08:43:51",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "OpenID module",
+                "homepage": "https://bitbucket.org/mygento/openid"
+            }
+        },
+        "mygento/qiwi": {
+            "2.0.2": {
+                "name": "mygento/qiwi",
+                "version": "2.0.2",
+                "version_normalized": "2.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/qiwi",
+                    "reference": "e711ef8a86b376c4131e78b2eb914bb2a3789b2b"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "magento-ecg/coding-standard": "dev-master",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-27 16:23:15",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "QIWI payment module",
+                "homepage": "https://bitbucket.org/mygento/qiwi"
+            },
+            "dev-master": {
+                "name": "mygento/qiwi",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/qiwi",
+                    "reference": "b657b29003aa640182d1678c14cc701e95737923"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-27 16:27:58",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "QIWI payment module",
+                "homepage": "https://bitbucket.org/mygento/qiwi"
+            }
+        },
+        "mygento/seo": {
+            "dev-master": {
+                "name": "mygento/seo",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/seo",
+                    "reference": "7ad07f1fc8d4a7f6698417997191856fbfb848f6"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-23 20:40:33",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Mygento Seo",
+                "homepage": "https://bitbucket.org/mygento/seo"
+            }
+        },
+        "mygento/shortmessage": {
+            "dev-dev": {
+                "name": "mygento/shortmessage",
+                "version": "dev-dev",
+                "version_normalized": "dev-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/shortmessage",
+                    "reference": "aa911a82ab5ffe2518035116a6df30274c7c7353"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-31 13:21:48",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Shortmessage module",
+                "homepage": "https://bitbucket.org/mygento/shortmessage"
+            }
+        },
+        "mygento/spsr": {
+            "dev-master": {
+                "name": "mygento/spsr",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/spsr",
+                    "reference": "f6e02f79350b5b0b4de5ee4129f4bd934263273e"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-31 10:27:24",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "SPSR shipping module",
+                "homepage": "https://bitbucket.org/mygento/spsr"
+            }
+        },
+        "mygento/yandexkassa": {
+            "1.0.5": {
+                "name": "mygento/yandexkassa",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "e7c6e9c3ab4ff970ca8b75a61324c776d4f7d468"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 11:24:19",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexkassa"
+            },
+            "dev-master": {
+                "name": "mygento/yandexkassa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "e7c6e9c3ab4ff970ca8b75a61324c776d4f7d468"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-07 11:24:19",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexkassa"
+            }
+        }
+    }
+}
