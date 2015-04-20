@@ -653,14 +653,14 @@
                 "description": "CDN module",
                 "homepage": "https://github.com/mygento/cdn.git"
             },
-            "dev-master": {
+            "1.2.0": {
                 "name": "mygento/cdn",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
+                    "reference": "6a1987a4e7d336d5d8f4e8dd59d4cc1551ca70c8"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -675,7 +675,40 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-15 11:42:29",
+                "time": "2015-04-20 07:47:21",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "6a1987a4e7d336d5d8f4e8dd59d4cc1551ca70c8"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-20 07:47:21",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
