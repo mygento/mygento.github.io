@@ -2885,14 +2885,14 @@
                 "description": "CDN module",
                 "homepage": "https://github.com/mygento/cdn.git"
             },
-            "dev-master": {
+            "1.3.0": {
                 "name": "mygento/cdn",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.3.0",
+                "version_normalized": "1.3.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "6a1987a4e7d336d5d8f4e8dd59d4cc1551ca70c8"
+                    "reference": "e91941ab648b8e485f64fa36e86fa8871771ddb1"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -2907,7 +2907,40 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-20 07:47:21",
+                "time": "2015-04-21 20:00:15",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git"
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "e91941ab648b8e485f64fa36e86fa8871771ddb1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-21 20:00:15",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -2925,7 +2958,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "db08b2007e5d6233d35d50eecddef260441256c5"
+                    "reference": "e91941ab648b8e485f64fa36e86fa8871771ddb1"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -2940,7 +2973,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-20 21:03:28",
+                "time": "2015-04-21 20:00:15",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3042,6 +3075,34 @@
                 "description": "A set of PHP_CodeSniffer rules and sniffs",
                 "homepage": "https://github.com/mygento/coding-standard"
             },
+            "1.2": {
+                "name": "mygento/coding-standard",
+                "version": "1.2",
+                "version_normalized": "1.2.0.0",
+                "target-dir": "Mygento-Mage1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/coding-standard",
+                    "reference": "2ceb38dcfaae97e48b5762be7c34b0ff502411a4"
+                },
+                "require": {
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-21 20:11:08",
+                "type": "library",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "homepage": "http://www.mygento.net",
+                        "email": "connect@mygento.net"
+                    }
+                ],
+                "description": "A set of PHP_CodeSniffer rules and sniffs",
+                "homepage": "https://github.com/mygento/coding-standard"
+            },
             "dev-master": {
                 "name": "mygento/coding-standard",
                 "version": "dev-master",
@@ -3050,12 +3111,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/coding-standard",
-                    "reference": "c9d9a3ec866fca8ba933f4b1712cbe22a7dac547"
+                    "reference": "2ceb38dcfaae97e48b5762be7c34b0ff502411a4"
                 },
                 "require": {
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-15 08:52:36",
+                "time": "2015-04-21 20:11:08",
                 "type": "library",
                 "license": [
                     "MIT"
@@ -4093,7 +4154,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "ac154057b67d6eff4ff7719ce96827f90b070d32"
+                    "reference": "20aa100a8fa5653c6b6a18946eadb5fcec81c179"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4107,7 +4168,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-20 13:37:30",
+                "time": "2015-04-21 15:27:06",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
