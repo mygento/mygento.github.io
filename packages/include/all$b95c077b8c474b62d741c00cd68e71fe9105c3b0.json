@@ -4122,7 +4122,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "ac154057b67d6eff4ff7719ce96827f90b070d32"
+                    "reference": "b1437f0359d8e8f26cec260db0001059a20b72fa"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4131,12 +4131,13 @@
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-20 13:37:30",
+                "time": "2015-04-23 13:00:12",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4154,7 +4155,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "20aa100a8fa5653c6b6a18946eadb5fcec81c179"
+                    "reference": "b1437f0359d8e8f26cec260db0001059a20b72fa"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4163,12 +4164,13 @@
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-21 15:27:06",
+                "time": "2015-04-23 13:00:12",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
