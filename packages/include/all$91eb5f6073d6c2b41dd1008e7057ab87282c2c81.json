@@ -2462,9 +2462,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "cd5d6f25b5404aec04370f0ef521f2c281f370b1"
+                    "reference": "4ee3d2b7d94a2fb77a12342d09c8141cd22e2f78"
                 },
-                "time": "2015-04-20 08:10:33",
+                "time": "2015-05-05 10:29:37",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -2690,14 +2690,14 @@
                 "description": "Mygento base",
                 "homepage": "https://github.com/mygento/base"
             },
-            "dev-master": {
+            "1.0.5": {
                 "name": "mygento/base",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/base",
-                    "reference": "8d4255829b2c3627ae2fc8378407f877c14b9e5c"
+                    "reference": "efe258d12700acc82ead5a27a59c2f3f8ff85bd9"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -2706,12 +2706,79 @@
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-07 10:40:23",
+                "time": "2015-04-30 11:03:59",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Mygento base",
+                "homepage": "https://github.com/mygento/base"
+            },
+            "dev-master": {
+                "name": "mygento/base",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/base",
+                    "reference": "efe258d12700acc82ead5a27a59c2f3f8ff85bd9"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-30 11:03:59",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Mygento base",
+                "homepage": "https://github.com/mygento/base"
+            },
+            "dev-devel": {
+                "name": "mygento/base",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/base",
+                    "reference": "efe258d12700acc82ead5a27a59c2f3f8ff85bd9"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-30 11:03:59",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -2796,7 +2863,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "4c3268d69c8099c633268276dc2037e92e327a21"
+                    "reference": "bb2396eb91f77408f440950bf8963caf92b41213"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -2811,7 +2878,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-28 14:09:15",
+                "time": "2015-05-05 13:53:19",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3288,6 +3355,107 @@
                 "homepage": "https://github.com/mygento/currency.git"
             }
         },
+        "mygento/dellin": {
+            "3.0.0": {
+                "name": "mygento/dellin",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/deloviye_linii.git",
+                    "reference": "6e31b3d46322afd23c3c60f352f9e912c033e76c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-02 12:53:17",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Dellin shipping module",
+                "homepage": "https://bitbucket.org/mygento/deloviye_linii"
+            },
+            "dev-master": {
+                "name": "mygento/dellin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/deloviye_linii.git",
+                    "reference": "735d3234ff4c29398b90d0ea220c76712ea1c686"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-05 15:57:52",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Dellin shipping module",
+                "homepage": "https://bitbucket.org/mygento/deloviye_linii"
+            },
+            "dev-devel": {
+                "name": "mygento/dellin",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/deloviye_linii.git",
+                    "reference": "e6b0c9faaf5ea5237a84b65f0cd45f96c33b0699"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-21 09:53:18",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Dellin shipping module",
+                "homepage": "https://bitbucket.org/mygento/deloviye_linii"
+            }
+        },
         "mygento/dpd": {
             "1.3.1": {
                 "name": "mygento/dpd",
@@ -3451,7 +3619,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/dpd",
-                    "reference": "396459ee6c2a04511304566ea56aa97c8677f84d"
+                    "reference": "d2ff9f743edd1869f8d3f8bcfab18c5a8c4bff3f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3466,7 +3634,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-28 14:09:43",
+                "time": "2015-04-30 14:56:50",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3509,6 +3677,210 @@
                 ],
                 "description": "DPD shipping module",
                 "homepage": "http://www.mygento.ru/modules/dpd-magento.html"
+            }
+        },
+        "mygento/enterprise": {
+            "1.14.1.0": {
+                "name": "mygento/enterprise",
+                "version": "1.14.1.0",
+                "version_normalized": "1.14.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/enterprise.git",
+                    "reference": "2706866c0fc6c9f79866c7f46d2821bbfd7e3d74"
+                },
+                "time": "2015-05-06 12:42:15",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Magento Enterprise",
+                "homepage": "http://www.magentocommerce.com"
+            },
+            "dev-master": {
+                "name": "mygento/enterprise",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/enterprise.git",
+                    "reference": "2706866c0fc6c9f79866c7f46d2821bbfd7e3d74"
+                },
+                "time": "2015-05-06 12:42:15",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Magento Enterprise",
+                "homepage": "http://www.magentocommerce.com"
             }
         },
         "mygento/exgarant": {
@@ -4090,6 +4462,41 @@
                 "homepage": "https://github.com/mygento/metrika"
             }
         },
+        "mygento/mvendor": {
+            "dev-master": {
+                "name": "mygento/mvendor",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/mvendor.git",
+                    "reference": "e909882465c5f0496beb4698a268fe9c9d6824ea"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-02 19:28:34",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Mvendor module",
+                "homepage": "https://bitbucket.org/mygento/mvendor"
+            }
+        },
         "mygento/openid": {
             "1.1.2": {
                 "name": "mygento/openid",
@@ -4565,12 +4972,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "0a4d2675add584670af235ed2f30418a243cadde"
+                    "reference": "fb9762a3f0c3161c54f8a42dd6af94bd36574c04"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "time": "2014-10-01 16:50:32",
+                "time": "2015-05-05 18:50:40",
                 "type": "magento-module",
                 "license": [
                     "GPLv2+"
