@@ -745,6 +745,44 @@
                 "homepage": "http://www.ecomdev.org/shop/code-testing/php-unit-test-suite.html"
             }
         },
+        "etws/et_currencymanager": {
+            "dev-master": {
+                "name": "etws/et_currencymanager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/etws/et_currencymanager",
+                    "reference": "bec2776e217aba1f83678db687bfca2187cc23e2"
+                },
+                "require": {
+                    "bragento/magento-composer-installer": "~1"
+                },
+                "time": "2015-04-28 07:30:39",
+                "type": "magento-module",
+                "license": [
+                    "EFL-1.0"
+                ],
+                "authors": [
+                    {
+                        "name": "ET Web Solutions",
+                        "email": "support@etwebsolutions.com",
+                        "homepage": "http://www.etwebsolutions.com/"
+                    }
+                ],
+                "description": "Currency Manager lets shop owner manage price display in an easy and convenient way: show custom currency symbol, change its position, change number of decimals and etc.",
+                "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-currency-manager.html",
+                "keywords": [
+                    "currency",
+                    "magento"
+                ],
+                "support": {
+                    "email": "support@etwebsolutions.com",
+                    "issues": "https://bitbucket.org/etws/et_currencymanager/issues?status=new&status=open",
+                    "source": "https://bitbucket.org/etws/et_currencymanager"
+                }
+            }
+        },
         "magento/core": {
             "1.6.2.0": {
                 "name": "magento/core",
@@ -2455,6 +2493,107 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.9.1.1": {
+                "name": "magento/core",
+                "version": "1.9.1.1",
+                "version_normalized": "1.9.1.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "4ee3d2b7d94a2fb77a12342d09c8141cd22e2f78"
+                },
+                "time": "2015-05-05 10:29:37",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.9.x-dev": {
                 "name": "magento/core",
                 "version": "1.9.x-dev",
@@ -2863,7 +3002,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "bb2396eb91f77408f440950bf8963caf92b41213"
+                    "reference": "8609753255270d1beea3052083b6b6a627eeac8c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -2878,7 +3017,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-05 13:53:19",
+                "time": "2015-05-07 09:16:48",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3092,7 +3231,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "b8bbbabedacf29db3c273dc44a3571b368d3888e"
+                    "reference": "5afaea0c833f4f9136072105938f912069681ce4"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3107,7 +3246,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-26 19:25:06",
+                "time": "2015-05-07 11:05:24",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4972,15 +5111,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "fb9762a3f0c3161c54f8a42dd6af94bd36574c04"
+                    "reference": "34e103539d1f57f0739b9cd567e9a674ac90df91"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "time": "2015-05-05 18:50:40",
+                "time": "2015-05-06 15:08:14",
                 "type": "magento-module",
                 "license": [
-                    "GPLv2+"
+                    "GPL-2.0+"
                 ],
                 "authors": [
                     {
