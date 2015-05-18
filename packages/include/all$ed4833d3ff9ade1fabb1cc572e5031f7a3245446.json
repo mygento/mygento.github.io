@@ -5009,7 +5009,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/mvendor.git",
-                    "reference": "a9579efc1d26def2ea44828ea248e6bd2798e842"
+                    "reference": "3171968b196bb4a6f211999a275cc82c2141c208"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5024,9 +5024,10 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-18 20:37:59",
+                "time": "2015-05-18 21:14:04",
                 "type": "magento-module",
                 "extra": {
+                    "magento-force": true,
                     "magento-root-dir": "."
                 },
                 "license": [
