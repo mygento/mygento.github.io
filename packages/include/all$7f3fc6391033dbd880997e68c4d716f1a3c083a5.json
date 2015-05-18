@@ -1692,9 +1692,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "e6837e35331150b92e9478854b0648135c26735d"
+                    "reference": "35e23f182931b9b5c5f747a3420e15167367b923"
                 },
-                "time": "2015-05-15 09:06:55",
+                "time": "2015-05-18 10:01:17",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -1793,9 +1793,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "930795f935f3bcd2cddda7687c57a462d647076b"
+                    "reference": "1ce9fb4f786c76e6caff9bf78a7ebce4def7473a"
                 },
-                "time": "2015-05-15 09:06:55",
+                "time": "2015-05-18 10:01:17",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -4950,39 +4950,6 @@
             }
         },
         "mygento/mvendor": {
-            "1.0.0": {
-                "name": "mygento/mvendor",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:mygento/mvendor.git",
-                    "reference": "b0dd97eeb7483bf2d0826dd59a64e15dd06e2837"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "require-dev": {
-                    "jakub-onderka/php-console-highlighter": "0.*",
-                    "jakub-onderka/php-parallel-lint": "0.*",
-                    "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
-                    "phpmd/phpmd": "@stable",
-                    "sebastian/phpcpd": "*",
-                    "sebastian/phpdcd": "*",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2015-05-14 20:01:13",
-                "type": "magento-module",
-                "extra": {
-                    "magento-root-dir": "."
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "Mvendor module",
-                "homepage": "https://bitbucket.org/mygento/mvendor"
-            },
             "dev-master": {
                 "name": "mygento/mvendor",
                 "version": "dev-master",
@@ -4990,7 +4957,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/mvendor.git",
-                    "reference": "b0dd97eeb7483bf2d0826dd59a64e15dd06e2837"
+                    "reference": "465f7f2a37f1a00c5b51f9047fa00aa473d5c133"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5005,7 +4972,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-14 20:01:13",
+                "time": "2015-05-18 15:40:32",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -5141,6 +5108,35 @@
             }
         },
         "mygento/seo": {
+            "1.1.5": {
+                "name": "mygento/seo",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/seo",
+                    "reference": "7ad07f1fc8d4a7f6698417997191856fbfb848f6"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-03-23 20:40:33",
+                "type": "magento-module",
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Mygento Seo",
+                "homepage": "https://bitbucket.org/mygento/seo"
+            },
             "dev-master": {
                 "name": "mygento/seo",
                 "version": "dev-master",
