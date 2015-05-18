@@ -3131,6 +3131,58 @@
                 "homepage": "https://github.com/mygento/base"
             }
         },
+        "mygento/boxberry": {
+            "dev-devel": {
+                "name": "mygento/boxberry",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/boxberry.git",
+                    "reference": "c7373a36d185582e0217c9f539622eba0eae3887"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-18 16:12:15",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    },
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Boxberry integration",
+                "homepage": "http://www.mygento.ru/modules/boxberry.html",
+                "keywords": [
+                    "boxberry",
+                    "magento",
+                    "shipping"
+                ]
+            }
+        },
         "mygento/cdek": {
             "3.0.0.5": {
                 "name": "mygento/cdek",
@@ -4106,7 +4158,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/dpd",
-                    "reference": "d2ff9f743edd1869f8d3f8bcfab18c5a8c4bff3f"
+                    "reference": "7798ce4db956a48a6f2265098b288dcd89461dd9"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4121,7 +4173,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-30 14:56:50",
+                "time": "2015-05-18 20:42:46",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4552,7 +4604,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "73bbd099d91a7080cf3ad5671b7a708d19791307"
+                    "reference": "d05bd428cbe72b1928d5d662e239bae1b64e7563"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4567,7 +4619,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-14 11:42:47",
+                "time": "2015-05-18 20:19:38",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4957,7 +5009,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/mvendor.git",
-                    "reference": "465f7f2a37f1a00c5b51f9047fa00aa473d5c133"
+                    "reference": "a9579efc1d26def2ea44828ea248e6bd2798e842"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4972,7 +5024,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-18 15:40:32",
+                "time": "2015-05-18 20:37:59",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -5375,7 +5427,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "d628e917c95800970ac4e3799ca362a09dbd2768"
+                    "reference": "0f9d86f8a79ba9ea8cb12a3a791f1da1117bbc13"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5390,7 +5442,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-14 19:44:38",
+                "time": "2015-05-18 20:57:18",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
