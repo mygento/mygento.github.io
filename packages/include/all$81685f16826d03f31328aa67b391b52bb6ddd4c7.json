@@ -3139,7 +3139,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "c7373a36d185582e0217c9f539622eba0eae3887"
+                    "reference": "248c38c8ad2744b40a29ce908ddf9010a564fedb"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3154,7 +3154,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-18 16:12:15",
+                "time": "2015-05-19 10:04:02",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3256,7 +3256,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "ada96d6fe33b509103e6eecbbb6a1d59450561bc"
+                    "reference": "57d492e954899fc872f75cbfc067a8cd7848ac5e"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3271,7 +3271,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-13 16:12:37",
+                "time": "2015-05-22 12:34:44",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -5190,14 +5190,14 @@
                 "description": "Mygento Seo",
                 "homepage": "https://bitbucket.org/mygento/seo"
             },
-            "dev-master": {
+            "1.1.6": {
                 "name": "mygento/seo",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.6",
+                "version_normalized": "1.1.6.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/seo",
-                    "reference": "7ad07f1fc8d4a7f6698417997191856fbfb848f6"
+                    "reference": "0fbd16b33ddb8aa89a6a4a20897edaf7fe05314b"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5206,18 +5206,77 @@
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-03-23 20:40:33",
+                "time": "2015-05-25 21:11:27",
                 "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
                 "license": [
                     "proprietary"
                 ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
                 "description": "Mygento Seo",
-                "homepage": "https://bitbucket.org/mygento/seo"
+                "homepage": "https://bitbucket.org/mygento/seo",
+                "keywords": [
+                    "magento",
+                    "seo"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/seo",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/seo",
+                    "reference": "0fbd16b33ddb8aa89a6a4a20897edaf7fe05314b"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-25 21:11:27",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Mygento Seo",
+                "homepage": "https://bitbucket.org/mygento/seo",
+                "keywords": [
+                    "magento",
+                    "seo"
+                ]
             }
         },
         "mygento/shortmessage": {
@@ -5421,14 +5480,14 @@
                 "description": "Yandex Kassa Payment module",
                 "homepage": "https://bitbucket.org/mygento/yandexkassa"
             },
-            "dev-master": {
+            "1.0.7": {
                 "name": "mygento/yandexkassa",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "0f9d86f8a79ba9ea8cb12a3a791f1da1117bbc13"
+                    "reference": "8d83a9934618d07476036f4477a4bb5f4f505510"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5443,7 +5502,40 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-18 20:57:18",
+                "time": "2015-05-22 13:32:04",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexkassa"
+            },
+            "dev-master": {
+                "name": "mygento/yandexkassa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "8d83a9934618d07476036f4477a4bb5f4f505510"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-22 13:32:04",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
