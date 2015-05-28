@@ -27,6 +27,7 @@
         { "type": "git", "url": "git@bitbucket.org:mygento/qiwi" },
         { "type": "git", "url": "git@bitbucket.org:mygento/seo" },
         { "type": "git", "url": "git@bitbucket.org:mygento/shortmessage"},
+	{ "type": "git", "url": "git@bitbucket.org:mygento/sberbank"},
         { "type": "git", "url": "git@bitbucket.org:mygento/spsr"},
         { "type": "git", "url": "git@bitbucket.org:mygento/yandexkassa"},
 	{ "type": "git", "url": "https://bitbucket.org/etws/et_currencymanager"}

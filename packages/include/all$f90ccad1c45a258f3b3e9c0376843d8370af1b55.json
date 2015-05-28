@@ -2796,16 +2796,16 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
-            "1.9.x-dev": {
+            "1.9.1.1-patch2": {
                 "name": "magento/core",
-                "version": "1.9.x-dev",
-                "version_normalized": "1.9.9999999.9999999-dev",
+                "version": "1.9.1.1-patch2",
+                "version_normalized": "1.9.1.1-patch2",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "6c31124a7acdf3f0c1e20d5ffe5ce5fcc4f205fb"
+                    "reference": "a2b36a69d95ecf32a0abd19c28edf45fe563c7d0"
                 },
-                "time": "2015-05-15 08:14:35",
+                "time": "2015-05-27 19:38:39",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -2888,6 +2888,115 @@
                         [
                             "mage",
                             "mage"
+                        ],
+                        [
+                            "LICENSE.html",
+                            "LICENSE.html"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
+            "1.9.x-dev": {
+                "name": "magento/core",
+                "version": "1.9.x-dev",
+                "version_normalized": "1.9.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "a2b36a69d95ecf32a0abd19c28edf45fe563c7d0"
+                },
+                "time": "2015-05-27 19:38:39",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ],
+                        [
+                            "LICENSE.html",
+                            "LICENSE.html"
                         ]
                     ]
                 },
@@ -3139,7 +3248,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "248c38c8ad2744b40a29ce908ddf9010a564fedb"
+                    "reference": "45c530ef358b1b29dac3a6f3eb0516f59d83dd9f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3154,7 +3263,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-19 10:04:02",
+                "time": "2015-05-28 13:42:56",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -5160,6 +5269,42 @@
                 "homepage": "https://bitbucket.org/mygento/qiwi"
             }
         },
+        "mygento/sberbank": {
+            "dev-master": {
+                "name": "mygento/sberbank",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/sberbank",
+                    "reference": "f423532778cb33dceddee9b0332bfde53e87a1ae"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-27 23:10:01",
+                "type": "magento-module",
+                "extra": {
+                    "magento-force": true,
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Sberbank Acquiring",
+                "homepage": "https://bitbucket.org/mygento/sberbank"
+            }
+        },
         "mygento/seo": {
             "1.1.5": {
                 "name": "mygento/seo",
@@ -5354,7 +5499,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/spsr",
-                    "reference": "bc8a3d291d8c8b3a7bd8501a54aee52933cdc2e2"
+                    "reference": "5eb674cbb4bf7d091576efdd274ae335d93d85bf"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5369,7 +5514,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-29 20:16:18",
+                "time": "2015-05-27 21:51:45",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -5633,12 +5778,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "0ae79ec0049489461183f06b0a24ee48cc754e7c"
+                    "reference": "a3b4c3b421dfd01cf93b2081bd79bb6aaa7c82c2"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
                 },
-                "time": "2015-05-13 12:52:07",
+                "time": "2015-05-27 20:57:32",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
