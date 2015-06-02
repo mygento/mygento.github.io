@@ -3039,6 +3039,50 @@
                 ],
                 "description": "alfabank payment module",
                 "homepage": "https://bitbucket.org/mygento/alfabank"
+            },
+            "dev-devel": {
+                "name": "mygento/alfabank",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/alfabank",
+                    "reference": "ab688c11cae86e5482b85ca0b179c611f0877c8a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-29 09:38:28",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Alfabank payment module",
+                "homepage": "https://bitbucket.org/mygento/alfabank",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
             }
         },
         "mygento/avangard": {
@@ -3241,14 +3285,14 @@
             }
         },
         "mygento/boxberry": {
-            "dev-devel": {
+            "1.0.0": {
                 "name": "mygento/boxberry",
-                "version": "dev-devel",
-                "version_normalized": "dev-devel",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "45c530ef358b1b29dac3a6f3eb0516f59d83dd9f"
+                    "reference": "b600f00cffcc50f66eede7f702ada8918f3ea080"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3263,7 +3307,107 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-28 13:42:56",
+                "time": "2015-06-02 10:23:44",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    },
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Boxberry integration",
+                "homepage": "http://www.mygento.ru/modules/boxberry.html",
+                "keywords": [
+                    "boxberry",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/boxberry",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/boxberry.git",
+                    "reference": "ddbd8abecb555878128c7706d71663ef06d35711"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-06-02 10:37:23",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    },
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Boxberry integration",
+                "homepage": "http://www.mygento.ru/modules/boxberry.html",
+                "keywords": [
+                    "boxberry",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-devel": {
+                "name": "mygento/boxberry",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/boxberry.git",
+                    "reference": "b600f00cffcc50f66eede7f702ada8918f3ea080"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-06-02 10:23:44",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4044,7 +4188,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/deloviye_linii.git",
-                    "reference": "735d3234ff4c29398b90d0ea220c76712ea1c686"
+                    "reference": "a75cccafdf6bfce9228c52a57f05f2ad2052faf4"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4059,7 +4203,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-05 15:57:52",
+                "time": "2015-06-01 15:25:54",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -5277,7 +5421,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/sberbank",
-                    "reference": "f423532778cb33dceddee9b0332bfde53e87a1ae"
+                    "reference": "07e303009c25896d638787d62306ceeef94e449f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5292,17 +5436,27 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-27 23:10:01",
+                "time": "2015-05-29 12:35:36",
                 "type": "magento-module",
                 "extra": {
-                    "magento-force": true,
                     "magento-root-dir": "."
                 },
                 "license": [
                     "proprietary"
                 ],
-                "description": "Sberbank Acquiring",
-                "homepage": "https://bitbucket.org/mygento/sberbank"
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Module module",
+                "homepage": "https://bitbucket.org/mygento/sberbank",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
             }
         },
         "mygento/seo": {
