@@ -3015,7 +3015,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/alfabank",
-                    "reference": "5155c9cf49f300fcf1363983d3ddb9e9aeceea2e"
+                    "reference": "fd51cc3a7bab109ccf0bf2f2a50f667820864c97"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3029,7 +3029,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-03-24 13:46:18",
+                "time": "2015-06-02 19:23:24",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3442,7 +3442,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "d682f78948ef6063127af1299023bbdb77081246"
+                    "reference": "6b63c3654b9c8ce55d5c5eddf55d04698cc731ad"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3457,7 +3457,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-02 19:21:03",
+                "time": "2015-06-02 19:30:00",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
