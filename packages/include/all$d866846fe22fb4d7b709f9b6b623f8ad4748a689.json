@@ -3392,7 +3392,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "59d79f12aa0b9395d7af2223d898838847680e6c"
+                    "reference": "644625e5fc6cdebed0fc8beb621294c2d4f3f4e9"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3407,7 +3407,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-02 10:46:10",
+                "time": "2015-06-03 08:50:35",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3442,7 +3442,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "6b63c3654b9c8ce55d5c5eddf55d04698cc731ad"
+                    "reference": "368c58ac9f9aa37f108cf4304692db6829dbaebf"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3457,7 +3457,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-02 19:30:00",
+                "time": "2015-06-03 08:50:35",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4264,14 +4264,14 @@
                 "description": "Dellin shipping module",
                 "homepage": "https://bitbucket.org/mygento/deloviye_linii"
             },
-            "dev-master": {
+            "3.0.2": {
                 "name": "mygento/dellin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/deloviye_linii.git",
-                    "reference": "a75cccafdf6bfce9228c52a57f05f2ad2052faf4"
+                    "reference": "14b3e55cfbf250f863c72d275fa3189a51e1dd49"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4286,7 +4286,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-01 15:25:54",
+                "time": "2015-06-02 20:49:29",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -4294,8 +4294,63 @@
                 "license": [
                     "proprietary"
                 ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
                 "description": "Dellin shipping module",
-                "homepage": "https://bitbucket.org/mygento/deloviye_linii"
+                "homepage": "https://bitbucket.org/mygento/deloviye_linii",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/dellin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/deloviye_linii.git",
+                    "reference": "14b3e55cfbf250f863c72d275fa3189a51e1dd49"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-06-02 20:49:29",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Dellin shipping module",
+                "homepage": "https://bitbucket.org/mygento/deloviye_linii",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
             },
             "dev-devel": {
                 "name": "mygento/dellin",
