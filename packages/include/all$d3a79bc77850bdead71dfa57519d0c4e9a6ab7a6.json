@@ -3392,7 +3392,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "644625e5fc6cdebed0fc8beb621294c2d4f3f4e9"
+                    "reference": "1d8e13b9b6c6d8cd67756fe28c272e2817c1e909"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3407,7 +3407,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-03 08:50:35",
+                "time": "2015-06-03 09:01:03",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -3442,7 +3442,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "368c58ac9f9aa37f108cf4304692db6829dbaebf"
+                    "reference": "35a4b2e2bbbb923f0aacf8d9a80e1d231e191201"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3457,7 +3457,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-03 08:50:35",
+                "time": "2015-06-03 09:01:03",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
