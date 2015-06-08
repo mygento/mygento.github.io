@@ -3642,7 +3642,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "57d492e954899fc872f75cbfc067a8cd7848ac5e"
+                    "reference": "fa87050dacf42ef62537824d1ceeaf24c46daaa6"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3657,7 +3657,40 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-22 12:34:44",
+                "time": "2015-06-08 11:12:06",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "CDEK shipping module",
+                "homepage": "https://bitbucket.org/mygento/cdek"
+            },
+            "dev-devel": {
+                "name": "mygento/cdek",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/cdek",
+                    "reference": "fa87050dacf42ef62537824d1ceeaf24c46daaa6"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-06-08 11:12:06",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
