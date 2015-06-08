@@ -3,6 +3,7 @@
     "homepage": "http://mygento.github.io/packages",
     "repositories": [
         { "type": "git", "url": "https://github.com/mygento/metrika" },
+	{ "type": "git", "url": "https://github.com/mygento/geoip"},
         { "type": "git", "url": "https://github.com/mygento/jquerylib"},
         { "type": "git", "url": "https://github.com/mygento/currency" },
         { "type": "git", "url": "https://github.com/mygento/base" },

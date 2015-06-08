@@ -5305,6 +5305,144 @@
                 "homepage": "https://bitbucket.org/mygento/friendlycheckout"
             }
         },
+        "mygento/geoip": {
+            "1.0.0": {
+                "name": "mygento/geoip",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/geoip",
+                    "reference": "8fe26ff11a75c79697a4bffa75637ce41a809fbe"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-05-26 12:51:08",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Geo IP module for magento",
+                "homepage": "https://github.com/mygento/geoip.git",
+                "keywords": [
+                    "geoip",
+                    "magento"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/geoip",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/geoip",
+                    "reference": "a55fc1bdcd636557fb4f48ea0b4fdc27ac379559"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "mygento/base": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-06-04 11:21:37",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Geo IP module for magento",
+                "homepage": "https://github.com/mygento/geoip.git",
+                "keywords": [
+                    "geoip",
+                    "magento"
+                ]
+            },
+            "dev-devel": {
+                "name": "mygento/geoip",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/geoip",
+                    "reference": "a55fc1bdcd636557fb4f48ea0b4fdc27ac379559"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "mygento/base": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-06-04 11:21:37",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Geo IP module for magento",
+                "homepage": "https://github.com/mygento/geoip.git",
+                "keywords": [
+                    "geoip",
+                    "magento"
+                ]
+            }
+        },
         "mygento/jquerylib": {
             "1.11.3": {
                 "name": "mygento/jquerylib",
