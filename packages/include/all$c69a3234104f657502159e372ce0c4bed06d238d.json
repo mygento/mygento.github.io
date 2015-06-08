@@ -5357,7 +5357,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/geoip",
-                    "reference": "6e5afc2f795a8a8561a3729da5d6bc340da87e7e"
+                    "reference": "800e3cddfa00c627109c5576162bea0be62bd3c5"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -5373,7 +5373,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-08 13:04:58",
+                "time": "2015-06-08 13:41:47",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
