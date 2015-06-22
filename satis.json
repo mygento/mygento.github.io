@@ -15,6 +15,7 @@
         { "type": "git", "url": "https://github.com/nexcess/magento-turpentine.git"},
         { "type": "git", "url": "git@bitbucket.org:mygento/friendlycheckout.git" },
         { "type": "git", "url": "git@bitbucket.org:mygento/boxberry.git" },
+        { "type": "git", "url": "git@bitbucket.org:mygento/ocourier.git" },
         { "type": "git", "url": "git@bitbucket.org:mygento/enterprise.git" },
         { "type": "git", "url": "git@bitbucket.org:mygento/mvendor.git" },
         { "type": "git", "url": "git@bitbucket.org:mygento/deloviye_linii.git" },	
