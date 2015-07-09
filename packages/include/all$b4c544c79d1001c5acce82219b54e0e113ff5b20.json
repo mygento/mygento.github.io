@@ -314,14 +314,14 @@
                 "description": "Magento Cron Scheduler",
                 "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
             },
-            "dev-master": {
+            "v1.1.0": {
                 "name": "aoepeople/aoe_scheduler",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
-                    "reference": "c41ad4504cf4b64053e99a9168fac52c4921488b"
+                    "reference": "ef13ea6ffb230cb0309762a9938beb152acddea6"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -330,7 +330,223 @@
                 "replace": {
                     "fbrnc/aoe_scheduler": "*"
                 },
-                "time": "2015-04-28 23:20:04",
+                "time": "2015-06-26 19:31:35",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "v1.1.1": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "v1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "0c7d2b9d3cc7bc1ae1e2c89aea8510ad12f268de"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-06-26 20:59:00",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "v1.1.2": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "v1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "c618cb724b1202f0ced399d8b52f445640792175"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-06-26 22:34:15",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "1.2.0": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "47db5b5c6901ba575ab0c0d41a10c834e1360fe6"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-07-02 17:32:18",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "dev-master": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "31acf643e149c71014f80a1b32ad1abb05cdf4ed"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-07-09 05:23:25",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "dev-graceful_dead": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "dev-graceful_dead",
+                "version_normalized": "dev-graceful_dead",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "912b35aadec95784e81a2f5df35b42fb4d014547"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-07-02 17:32:18",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "dev-issue/126": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "dev-issue/126",
+                "version_normalized": "dev-issue/126",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "dc6dd265f0bf0001e13f79ac864f12aa738a733e"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-06-26 19:31:04",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -1786,6 +2002,107 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.7.0.2-patch7": {
+                "name": "magento/core",
+                "version": "1.7.0.2-patch7",
+                "version_normalized": "1.7.0.2-patch7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "33258d58f3180e467dd54a53abca1bdc48de4708"
+                },
+                "time": "2015-07-09 19:36:14",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.7.x-dev": {
                 "name": "magento/core",
                 "version": "1.7.x-dev",
@@ -1793,9 +2110,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "1ce9fb4f786c76e6caff9bf78a7ebce4def7473a"
+                    "reference": "c6f980f30896f0dc9fabeeece958396b7fb7dd26"
                 },
-                "time": "2015-05-18 10:01:17",
+                "time": "2015-07-09 19:36:14",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -2901,6 +3218,216 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.9.1.1-patch3": {
+                "name": "magento/core",
+                "version": "1.9.1.1-patch3",
+                "version_normalized": "1.9.1.1-patch3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "cb769ad3306140b27cdc092ad681e8ae1c02cb0a"
+                },
+                "time": "2015-07-08 19:15:05",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ],
+                        [
+                            "LICENSE.html",
+                            "LICENSE.html"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
+            "1.9.1.1-patch4": {
+                "name": "magento/core",
+                "version": "1.9.1.1-patch4",
+                "version_normalized": "1.9.1.1-patch4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "5ad403ba9de7c1300b41db77c7c9453e2e3f76e4"
+                },
+                "time": "2015-07-09 19:53:08",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ],
+                        [
+                            "LICENSE.html",
+                            "LICENSE.html"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.9.x-dev": {
                 "name": "magento/core",
                 "version": "1.9.x-dev",
@@ -2908,9 +3435,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "a2b36a69d95ecf32a0abd19c28edf45fe563c7d0"
+                    "reference": "5ad403ba9de7c1300b41db77c7c9453e2e3f76e4"
                 },
-                "time": "2015-05-27 19:38:39",
+                "time": "2015-07-09 19:53:08",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -3047,39 +3574,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/alfabank",
-                    "reference": "6531f1b01502e63a932b876b031de3e54b703170"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "require-dev": {
-                    "jakub-onderka/php-console-highlighter": "0.*",
-                    "jakub-onderka/php-parallel-lint": "0.*",
-                    "magento-ecg/coding-standard": "dev-master",
-                    "phpmd/phpmd": "@stable",
-                    "sebastian/phpcpd": "*",
-                    "sebastian/phpdcd": "*",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2015-06-08 22:45:52",
-                "type": "magento-module",
-                "extra": {
-                    "magento-root-dir": "."
-                },
-                "license": [
-                    "proprietary"
-                ],
-                "description": "alfabank payment module",
-                "homepage": "https://bitbucket.org/mygento/alfabank"
-            },
-            "dev-devel": {
-                "name": "mygento/alfabank",
-                "version": "dev-devel",
-                "version_normalized": "dev-devel",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:mygento/alfabank",
-                    "reference": "ab688c11cae86e5482b85ca0b179c611f0877c8a"
+                    "reference": "ab375525d0a8a56f942b2b0b3fcef28b639a677c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -3094,10 +3589,11 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-29 09:38:28",
+                "time": "2015-07-08 09:36:44",
                 "type": "magento-module",
                 "extra": {
-                    "magento-root-dir": "."
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
                 },
                 "license": [
                     "proprietary"
@@ -3105,8 +3601,8 @@
                 "authors": [
                     {
                         "name": "Mygento",
-                        "email": "connect@mygento.net",
-                        "homepage": "http://www.mygento.net/"
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
                     }
                 ],
                 "description": "Alfabank payment module",
@@ -3118,6 +3614,38 @@
             }
         },
         "mygento/avangard": {
+            "1.1.1": {
+                "name": "mygento/avangard",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/avangard",
+                    "reference": "023757fe6240d3863e8d2b23a40cc94b8d6895ee"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-04-06 09:30:39",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Avangard payment module",
+                "homepage": "https://bitbucket.org/mygento/avangard"
+            },
             "dev-master": {
                 "name": "mygento/avangard",
                 "version": "dev-master",
@@ -3526,7 +4054,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "0732fbda2860f6f9053d2b0283a61de94c227480"
+                    "reference": "fbaf7755b5f50baf14bf2367d44949092edfbebd"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -3541,7 +4069,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-23 18:58:17",
+                "time": "2015-07-09 21:20:08",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -4116,10 +4644,10 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "8746e25dfe3ad7814f604f25e9bad2e2dec71b7e"
+                    "reference": "eab272e7a618239c1c39327cb0222c875887565d"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -4131,7 +4659,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-15 15:18:26",
+                "time": "2015-07-03 14:36:42",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -6371,14 +6899,14 @@
                 "description": "SPSR shipping module",
                 "homepage": "http://www.mygento.ru/modules/spsr-express.html"
             },
-            "dev-master": {
+            "2.0.8": {
                 "name": "mygento/spsr",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/spsr",
-                    "reference": "5eb674cbb4bf7d091576efdd274ae335d93d85bf"
+                    "reference": "6d43303ef9b2928ec27d9fe8cde291a4cef89c46"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6393,7 +6921,40 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-05-27 21:51:45",
+                "time": "2015-07-02 09:58:09",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "SPSR shipping module",
+                "homepage": "http://www.mygento.ru/modules/spsr-express.html"
+            },
+            "dev-master": {
+                "name": "mygento/spsr",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/spsr",
+                    "reference": "6d43303ef9b2928ec27d9fe8cde291a4cef89c46"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-07-02 09:58:09",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -6570,14 +7131,14 @@
                 "description": "Yandex Kassa Payment module",
                 "homepage": "https://bitbucket.org/mygento/yandexkassa"
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "mygento/yandexkassa",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "877b946888e1b438d0f6a9839e00a5ebb2d53e71"
+                    "reference": "81571cfcbd456f048412010ed4c8a36770cceaf5"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6592,7 +7153,99 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-19 09:35:58",
+                "time": "2015-07-04 16:51:45",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexkassa",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "1.1.1": {
+                "name": "mygento/yandexkassa",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "75514630ce2ec7f809b07bb5f7eb5d86e90c07df"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-07-06 19:12:47",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexkassa",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/yandexkassa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "75514630ce2ec7f809b07bb5f7eb5d86e90c07df"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-07-06 19:12:47",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -6677,7 +7330,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "3281ae262599675f44562a87a90776ec91bb2668"
+                    "reference": "598bb2f9eaa3553300906e148fd90d6da2b54702"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6685,7 +7338,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-06-24 18:37:20",
+                "time": "2015-06-26 15:13:33",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -6735,7 +7388,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "f6a874ed6af93e34a016841055aeeec6029f81f7"
+                    "reference": "445f2b24d620aa9f82ae2377c2f2aeae015e66ba"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6743,7 +7396,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-06-24 19:31:42",
+                "time": "2015-07-08 19:10:23",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
