@@ -4543,7 +4543,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "bcc790d5bf30eed94039f59324a983cfdd9bcdf6"
+                    "reference": "5df5f77033655f3b9a6e68dadc28d4a05b7060e5"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -4558,7 +4558,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-17 12:53:59",
+                "time": "2015-07-22 20:28:55",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -6332,6 +6332,50 @@
                 "description": "Yandex Market Export module",
                 "homepage": "https://bitbucket.org/mygento/yandexpro"
             },
+            "dev-devel2": {
+                "name": "mygento/exportymlpro",
+                "version": "dev-devel2",
+                "version_normalized": "dev-devel2",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "e205ced02761c86648491601c5e174ce14cacb8d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-07-21 20:38:40",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro",
+                "keywords": [
+                    "magento"
+                ]
+            },
             "dev-unit_tests": {
                 "name": "mygento/exportymlpro",
                 "version": "dev-unit_tests",
@@ -6935,14 +6979,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "mygento/ocourier",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/ocourier.git",
-                    "reference": "b3b986c67cef0c2fc37d0419363fc06866bebbf7"
+                    "reference": "a9ff8cfa726c73d0c5053615b731fa590690fc8a"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6957,7 +7001,52 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-20 11:39:52",
+                "time": "2015-07-23 07:37:36",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Ocourier shipping extension",
+                "homepage": "https://bitbucket.org/mygento/ocourier",
+                "keywords": [
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/ocourier",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/ocourier.git",
+                    "reference": "a9ff8cfa726c73d0c5053615b731fa590690fc8a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-07-23 07:37:36",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -7929,7 +8018,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "bbe690608179a3e6ed27c965974e02f7173d59af"
+                    "reference": "78f79e8bfba0457a3684faa8a64c3c52636f3109"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -7937,7 +8026,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-07-17 15:19:12",
+                "time": "2015-07-20 22:48:02",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
