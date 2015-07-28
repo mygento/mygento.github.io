@@ -3435,9 +3435,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "85384d1f445c8629385b4565242bc501b91321ef"
+                    "reference": "15d276a39d0a63d891d88c8fd73fe93350010cef"
                 },
-                "time": "2015-07-11 21:46:40",
+                "time": "2015-07-23 16:11:17",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -3544,9 +3544,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "7ac7897744ce3adfe8e2cf808593df187789041a"
+                    "reference": "15d276a39d0a63d891d88c8fd73fe93350010cef"
                 },
-                "time": "2015-07-11 21:46:40",
+                "time": "2015-07-23 16:11:17",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -6339,7 +6339,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "e205ced02761c86648491601c5e174ce14cacb8d"
+                    "reference": "faf5d662d0d655e7565858e3bb6bc83a34abe542"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -6354,7 +6354,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-21 20:38:40",
+                "time": "2015-07-27 15:27:22",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
