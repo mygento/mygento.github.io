@@ -5189,14 +5189,14 @@
                     "selectel"
                 ]
             },
-            "dev-master": {
+            "1.6.1": {
                 "name": "mygento/cdn",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.1",
+                "version_normalized": "1.6.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "3338acbd28c7e762e6b03adc4ff778b4dfbd555e"
+                    "reference": "280bbaeeba7210d0c36220fb7952a4bafeaa3535"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5213,7 +5213,63 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-05 19:16:37",
+                "time": "2015-08-05 19:41:50",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git",
+                "keywords": [
+                    "amazon",
+                    "cdn",
+                    "magento",
+                    "s3",
+                    "selectel"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "280bbaeeba7210d0c36220fb7952a4bafeaa3535"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.*",
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "matthiasmullie/minify": "^1.3"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-05 19:41:50",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
