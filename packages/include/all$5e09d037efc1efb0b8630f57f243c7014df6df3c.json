@@ -3537,6 +3537,115 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.9.2.1": {
+                "name": "magento/core",
+                "version": "1.9.2.1",
+                "version_normalized": "1.9.2.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "81993054112e7cfed42e2729eaab91e7b91ef6a3"
+                },
+                "time": "2015-08-05 07:26:24",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "dev",
+                            "dev"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ],
+                        [
+                            "LICENSE.html",
+                            "LICENSE.html"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.9.x-dev": {
                 "name": "magento/core",
                 "version": "1.9.x-dev",
@@ -3544,9 +3653,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "15d276a39d0a63d891d88c8fd73fe93350010cef"
+                    "reference": "81993054112e7cfed42e2729eaab91e7b91ef6a3"
                 },
-                "time": "2015-07-23 16:11:17",
+                "time": "2015-08-05 07:26:24",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -4403,14 +4512,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.0.7": {
                 "name": "mygento/boxberry",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "ad2623ecd15ba28c047a8183893bdc171f05048f"
+                    "reference": "6cc6c85b1a21346ec47c9d46c34c4f3e3d6ffbc1"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -4425,7 +4534,58 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-03 14:28:46",
+                "time": "2015-08-05 11:12:08",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    },
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Boxberry integration",
+                "homepage": "http://www.mygento.ru/modules/boxberry.html",
+                "keywords": [
+                    "boxberry",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/boxberry",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/boxberry.git",
+                    "reference": "6cc6c85b1a21346ec47c9d46c34c4f3e3d6ffbc1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-05 11:12:08",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8238,7 +8398,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "b423b5695bc5cf13243950f7deb3cc4000bb8613"
+                    "reference": "feec575367627438a6c70ce7c457d09dddcf8d4d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8246,7 +8406,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-07-28 14:51:18",
+                "time": "2015-08-04 15:45:18",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -8296,7 +8456,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "42cd7044e41e01bd7ebce968d6b05001838afd3a"
+                    "reference": "c0fafb84458cba79df40c661ddf85d73c9e2f2bb"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8304,7 +8464,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-07-28 12:58:33",
+                "time": "2015-08-04 15:39:58",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
