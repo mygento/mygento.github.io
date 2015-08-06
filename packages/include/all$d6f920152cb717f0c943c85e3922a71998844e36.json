@@ -5300,7 +5300,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "c4efee25e5a405ccc332013fb92261d522429af8"
+                    "reference": "eb0db9f7a9dd870cbf5c103bdde5d76eaa9c263e"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5317,7 +5317,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-06 11:20:08",
+                "time": "2015-08-06 11:31:24",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -7896,14 +7896,14 @@
                     "payment"
                 ]
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "mygento/sberbank",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/sberbank",
-                    "reference": "b1893fcc2ef9512016326782bbf7f1d9f1ed4ef2"
+                    "reference": "86837c74fb5930fe6a31dab7225a0feb976e4a8a"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -7918,7 +7918,51 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-03 10:11:00",
+                "time": "2015-08-06 14:33:48",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Module module",
+                "homepage": "https://bitbucket.org/mygento/sberbank",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/sberbank",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/sberbank",
+                    "reference": "86837c74fb5930fe6a31dab7225a0feb976e4a8a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-06 14:33:48",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
