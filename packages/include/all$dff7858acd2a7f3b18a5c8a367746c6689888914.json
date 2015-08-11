@@ -7593,14 +7593,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.0.3": {
                 "name": "mygento/ocourier",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/ocourier.git",
-                    "reference": "73d25cbfced1e20ac3c83e5ea1e3ef30119c3dfb"
+                    "reference": "78b882c32483bac13541f593e145760fd3ac38ba"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -7615,7 +7615,52 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-30 08:17:51",
+                "time": "2015-08-11 12:11:30",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Ocourier shipping extension",
+                "homepage": "https://bitbucket.org/mygento/ocourier",
+                "keywords": [
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/ocourier",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/ocourier.git",
+                    "reference": "78b882c32483bac13541f593e145760fd3ac38ba"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-11 12:11:30",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8719,7 +8764,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "c0fafb84458cba79df40c661ddf85d73c9e2f2bb"
+                    "reference": "7c0dc018e2a0daa2ba5e47ccaa7e99b6dcbcd06c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8727,7 +8772,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-04 15:39:58",
+                "time": "2015-08-07 14:39:09",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
