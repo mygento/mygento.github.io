@@ -8,6 +8,7 @@
         { "type": "git", "url": "https://github.com/mygento/currency" },
         { "type": "git", "url": "https://github.com/mygento/base" },
         { "type": "git", "url": "https://github.com/mygento/cdn" },
+	{ "type": "git", "url": "https://github.com/mygento/simplepay" },
         { "type": "git", "url": "https://github.com/mygento/coding-standard" },
         { "type": "git", "url": "https://github.com/EcomDev/EcomDev_PHPUnit.git"},
         { "type": "git", "url": "https://github.com/bragento/magento-core" },
