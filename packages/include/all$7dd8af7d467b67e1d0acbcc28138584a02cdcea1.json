@@ -860,16 +860,16 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/EcomDev/EcomDev_PHPUnit.git",
-                    "reference": "68bfe5b3e1ead58c850dd041a5e39d85297add40"
+                    "reference": "e0b35954b036937fa9622491fbc2f53c5b7f56bc"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
-                    "phpunit/phpunit": "4.1.*"
+                    "phpunit/phpunit": "4.*"
                 },
                 "replace": {
                     "ivanchepurnyi/ecomdev_phpunit": "*"
                 },
-                "time": "2015-03-31 22:12:58",
+                "time": "2015-08-12 13:59:20",
                 "type": "magento-module",
                 "license": [
                     "OSL-3.0"
@@ -969,12 +969,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://bitbucket.org/etws/et_currencymanager",
-                    "reference": "bec2776e217aba1f83678db687bfca2187cc23e2"
+                    "reference": "b0a7aef1f7ec649a286c91f0387d285f8b8160bc"
                 },
                 "require": {
                     "bragento/magento-composer-installer": "~1"
                 },
-                "time": "2015-04-28 07:30:39",
+                "time": "2015-08-12 14:42:49",
                 "type": "magento-module",
                 "license": [
                     "EFL-1.0"
@@ -8183,6 +8183,100 @@
                 "homepage": "https://bitbucket.org/mygento/shortmessage"
             }
         },
+        "mygento/simplepay": {
+            "1.0.0": {
+                "name": "mygento/simplepay",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "4390346b6dcbe1a7adf390e15e1caca4c6fca1c7"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-14 12:12:58",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/simplepay",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "4390346b6dcbe1a7adf390e15e1caca4c6fca1c7"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-14 12:12:58",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            }
+        },
         "mygento/spsr": {
             "2.0.7": {
                 "name": "mygento/spsr",
@@ -8541,14 +8635,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "mygento/yandexkassa",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "75514630ce2ec7f809b07bb5f7eb5d86e90c07df"
+                    "reference": "19bbdb6bfdcd3259c8934378e2d9df2a66f60a9f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -8563,7 +8657,53 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-06 19:12:47",
+                "time": "2015-08-12 20:38:17",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexkassa",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/yandexkassa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "19bbdb6bfdcd3259c8934378e2d9df2a66f60a9f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-12 20:38:17",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8764,7 +8904,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "7c0dc018e2a0daa2ba5e47ccaa7e99b6dcbcd06c"
+                    "reference": "a8b2d9e2181e4ead68616026d06d83ee59870146"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8772,7 +8912,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-07 14:39:09",
+                "time": "2015-08-12 16:52:23",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -8793,7 +8933,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "82931bf9209be8c85e7d7c4cc88d9baee6a5810e"
+                    "reference": "c8b2c29f99b94f9b35d15fb543747f5a48451b3d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8801,7 +8941,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-07-29 12:17:41",
+                "time": "2015-08-11 14:43:39",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
