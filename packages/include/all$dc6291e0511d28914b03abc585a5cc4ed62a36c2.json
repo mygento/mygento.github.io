@@ -458,14 +458,14 @@
                 "description": "Magento Cron Scheduler",
                 "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
             },
-            "dev-master": {
+            "v1.2.1": {
                 "name": "aoepeople/aoe_scheduler",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "v1.2.1",
+                "version_normalized": "1.2.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
-                    "reference": "99886d22ba2ad06922dfa242ce2f6975f8df47aa"
+                    "reference": "1b3b9197d07ccbc14fa32498648a1e63296b611f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -474,7 +474,43 @@
                 "replace": {
                     "fbrnc/aoe_scheduler": "*"
                 },
-                "time": "2015-07-15 18:44:07",
+                "time": "2015-08-15 05:04:40",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "dev-master": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "880fcbdc38eb08cc1b89c4c8300a5b250c166e1d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-08-18 04:43:49",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -583,6 +619,42 @@
                     "fbrnc/aoe_scheduler": "*"
                 },
                 "time": "2015-03-10 18:46:49",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "dev-lee/patch-1": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "dev-lee/patch-1",
+                "version_normalized": "dev-lee/patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "a348cf4f3cc1722614d35356f8b799b500dfd132"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-08-17 13:26:37",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -962,10 +1034,10 @@
             }
         },
         "etws/et_currencymanager": {
-            "dev-master": {
+            "1.2.6": {
                 "name": "etws/et_currencymanager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.6",
+                "version_normalized": "1.2.6.0",
                 "source": {
                     "type": "git",
                     "url": "https://bitbucket.org/etws/et_currencymanager",
@@ -988,6 +1060,42 @@
                 ],
                 "description": "Currency Manager lets shop owner manage price display in an easy and convenient way: show custom currency symbol, change its position, change number of decimals and etc.",
                 "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-currency-manager.html",
+                "keywords": [
+                    "currency",
+                    "magento"
+                ],
+                "support": {
+                    "email": "support@etwebsolutions.com",
+                    "issues": "https://bitbucket.org/etws/et_currencymanager/issues?status=new&status=open",
+                    "source": "https://bitbucket.org/etws/et_currencymanager"
+                }
+            },
+            "dev-master": {
+                "name": "etws/et_currencymanager",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/etws/et_currencymanager",
+                    "reference": "ac5c2de6267916c7716661dde778bd8ec2d63a03"
+                },
+                "require": {
+                    "bragento/magento-composer-installer": "~1"
+                },
+                "time": "2015-08-18 10:24:50",
+                "type": "magento-module",
+                "license": [
+                    "EFL-1.0"
+                ],
+                "authors": [
+                    {
+                        "name": "ET Web Solutions",
+                        "email": "support@etwebsolutions.com",
+                        "homepage": "http://www.etwebsolutions.com/"
+                    }
+                ],
+                "description": "Currency Manager lets shop owner manage price display in an easy and convenient way: show custom currency symbol, change its position, change number of decimals and etc.",
+                "homepage": "http://shop.etwebsolutions.com/eng/et-currency-manager.html",
                 "keywords": [
                     "currency",
                     "magento"
@@ -4555,14 +4663,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.0.8": {
                 "name": "mygento/boxberry",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "6cc6c85b1a21346ec47c9d46c34c4f3e3d6ffbc1"
+                    "reference": "09a197b6513354d8aced1f9b28d5351f8500b968"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -4577,7 +4685,58 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-05 11:12:08",
+                "time": "2015-08-21 08:56:10",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    },
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Boxberry integration",
+                "homepage": "http://www.mygento.ru/modules/boxberry.html",
+                "keywords": [
+                    "boxberry",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/boxberry",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/boxberry.git",
+                    "reference": "09a197b6513354d8aced1f9b28d5351f8500b968"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-21 08:56:10",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5349,6 +5508,62 @@
                     "selectel"
                 ]
             },
+            "dev-cache": {
+                "name": "mygento/cdn",
+                "version": "dev-cache",
+                "version_normalized": "dev-cache",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "0516a0ac038ebd9233dcf7f06ad0c29d0ab5f15d"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.*",
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "matthiasmullie/minify": "^1.3"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-18 19:58:13",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git",
+                "keywords": [
+                    "amazon",
+                    "cdn",
+                    "magento",
+                    "s3",
+                    "selectel"
+                ]
+            },
             "dev-composer": {
                 "name": "mygento/cdn",
                 "version": "dev-composer",
@@ -5817,14 +6032,14 @@
                     "payment"
                 ]
             },
-            "dev-master": {
+            "3.0.4": {
                 "name": "mygento/dellin",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "3.0.4",
+                "version_normalized": "3.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/deloviye_linii.git",
-                    "reference": "68149ca553d3d2cfcc4e7aef1a6fcebbf70da044"
+                    "reference": "4baea59c67a2a36aad0a5e431e6e61de079500b9"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -5839,10 +6054,11 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-14 22:22:43",
+                "time": "2015-08-25 08:05:37",
                 "type": "magento-module",
                 "extra": {
-                    "magento-root-dir": "."
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
                 },
                 "license": [
                     "proprietary"
@@ -5855,10 +6071,55 @@
                     }
                 ],
                 "description": "Dellin shipping module",
-                "homepage": "https://bitbucket.org/mygento/deloviye_linii",
+                "homepage": "http://www.mygento.ru/modules/delovyye-linii.html",
                 "keywords": [
                     "magento",
-                    "payment"
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/dellin",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/deloviye_linii.git",
+                    "reference": "4baea59c67a2a36aad0a5e431e6e61de079500b9"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-25 08:05:37",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Dellin shipping module",
+                "homepage": "http://www.mygento.ru/modules/delovyye-linii.html",
+                "keywords": [
+                    "magento",
+                    "shipping"
                 ]
             },
             "dev-devel": {
@@ -6371,16 +6632,117 @@
                 "description": "Magento Enterprise",
                 "homepage": "http://www.magentocommerce.com"
             },
-            "dev-master": {
+            "1.14.2.0": {
                 "name": "mygento/enterprise",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.14.2.0",
+                "version_normalized": "1.14.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/enterprise.git",
-                    "reference": "2706866c0fc6c9f79866c7f46d2821bbfd7e3d74"
+                    "reference": "773cb9bf6d94da653bbe075a85933a9d8339c411"
                 },
-                "time": "2015-05-06 12:42:15",
+                "time": "2015-08-19 13:00:57",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Magento Enterprise",
+                "homepage": "http://www.magentocommerce.com"
+            },
+            "1.14.x-dev": {
+                "name": "mygento/enterprise",
+                "version": "1.14.x-dev",
+                "version_normalized": "1.14.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/enterprise.git",
+                    "reference": "773cb9bf6d94da653bbe075a85933a9d8339c411"
+                },
+                "time": "2015-08-19 13:00:57",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -6908,7 +7270,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "4ca68ff1fdeddb3cc8b0075ea01e109bed76350b"
+                    "reference": "26d11f22e657ba7f127a534b94cb51e361408a47"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -6923,7 +7285,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-30 09:37:45",
+                "time": "2015-08-24 11:51:08",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -7645,7 +8007,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/ocourier.git",
-                    "reference": "78b882c32483bac13541f593e145760fd3ac38ba"
+                    "reference": "4df663f3f0beb53e7917de93d31d68b29df3c6f5"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -7660,7 +8022,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-11 12:11:30",
+                "time": "2015-08-17 15:39:08",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8230,14 +8592,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.0.1": {
                 "name": "mygento/simplepay",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/simplepay",
-                    "reference": "4390346b6dcbe1a7adf390e15e1caca4c6fca1c7"
+                    "reference": "f9eb24394ed581ee444796e3b8f87c18a53941cb"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8252,7 +8614,191 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-14 12:12:58",
+                "time": "2015-08-14 18:42:31",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "1.0.2": {
+                "name": "mygento/simplepay",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "2dcc804ba07c407b93f45c7ce2caff503898ae6d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-17 14:56:23",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "1.0.3": {
+                "name": "mygento/simplepay",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "9abaf4b0506f36161656bbbecab0dc30612f5398"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-19 12:12:35",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/simplepay",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "9abaf4b0506f36161656bbbecab0dc30612f5398"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-19 12:12:35",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "dev-devel": {
+                "name": "mygento/simplepay",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "0f4a4aeda207f5a9dbf9b8bd67c45ccaa8153720"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-17 12:20:53",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8839,6 +9385,35 @@
                 "description": "A Varnish extension for Magento.",
                 "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
             },
+            "0.6.4": {
+                "name": "nexcess/magento-turpentine",
+                "version": "0.6.4",
+                "version_normalized": "0.6.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nexcess/magento-turpentine.git",
+                    "reference": "feec575367627438a6c70ce7c457d09dddcf8d4d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "replace": {
+                    "connect20/nexcessnet_turpentine": "self.version"
+                },
+                "time": "2015-08-04 15:45:18",
+                "type": "magento-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Headley",
+                        "email": "aheadley@nexcess.net"
+                    }
+                ],
+                "description": "A Varnish extension for Magento.",
+                "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
+            },
             "dev-master": {
                 "name": "nexcess/magento-turpentine",
                 "version": "dev-master",
@@ -8904,7 +9479,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "a8b2d9e2181e4ead68616026d06d83ee59870146"
+                    "reference": "8ac83545023706ad2ef34ca054430bcefe3f3e96"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8912,7 +9487,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-12 16:52:23",
+                "time": "2015-08-17 13:48:16",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
