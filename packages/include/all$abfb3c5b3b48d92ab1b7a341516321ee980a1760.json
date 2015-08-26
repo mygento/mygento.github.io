@@ -6935,9 +6935,9 @@
                 "description": "Magento Enterprise",
                 "homepage": "http://www.magentocommerce.com"
             },
-            "1.13.1": {
+            "1.13.1.0": {
                 "name": "mygento/enterprise",
-                "version": "1.13.1",
+                "version": "1.13.1.0",
                 "version_normalized": "1.13.1.0",
                 "source": {
                     "type": "git",
