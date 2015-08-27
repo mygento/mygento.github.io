@@ -5724,6 +5724,62 @@
                     "selectel"
                 ]
             },
+            "dev-fix_minification": {
+                "name": "mygento/cdn",
+                "version": "dev-fix_minification",
+                "version_normalized": "dev-fix_minification",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "fa28d199b5e697571633d663540aab3118882b1c"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.*",
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "matthiasmullie/minify": "dev-master"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-27 12:58:18",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "CDN module",
+                "homepage": "https://github.com/mygento/cdn.git",
+                "keywords": [
+                    "amazon",
+                    "cdn",
+                    "magento",
+                    "s3",
+                    "selectel"
+                ]
+            },
             "dev-test": {
                 "name": "mygento/cdn",
                 "version": "dev-test",
