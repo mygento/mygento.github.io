@@ -5503,19 +5503,20 @@
                     "selectel"
                 ]
             },
-            "dev-master": {
+            "1.6.3": {
                 "name": "mygento/cdn",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.3",
+                "version_normalized": "1.6.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "eb0db9f7a9dd870cbf5c103bdde5d76eaa9c263e"
+                    "reference": "4be6dadd5b5a93e1fd03f05afebed400bdaf6cd3"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
-                    "magento-hackathon/magento-composer-installer": "*",
-                    "matthiasmullie/minify": "^1.3"
+                    "magento-hackathon/magento-composer-installer": "3.*",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": ">=5.5"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -5527,7 +5528,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-06 11:31:24",
+                "time": "2015-08-28 10:43:11",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5549,7 +5550,64 @@
                         "homepage": "http://www.mygento.net/"
                     }
                 ],
-                "description": "CDN module",
+                "description": "Magento CDN module",
+                "homepage": "https://github.com/mygento/cdn.git",
+                "keywords": [
+                    "amazon",
+                    "cdn",
+                    "magento",
+                    "s3",
+                    "selectel"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "4be6dadd5b5a93e1fd03f05afebed400bdaf6cd3"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.*",
+                    "magento-hackathon/magento-composer-installer": "3.*",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-28 10:43:11",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Magento CDN module",
                 "homepage": "https://github.com/mygento/cdn.git",
                 "keywords": [
                     "amazon",
@@ -5615,62 +5673,6 @@
                     "selectel"
                 ]
             },
-            "dev-composer": {
-                "name": "mygento/cdn",
-                "version": "dev-composer",
-                "version_normalized": "dev-composer",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/cdn",
-                    "reference": "cdfb7f7c704b4643689bf86250a9f690ec8b5d64"
-                },
-                "require": {
-                    "aws/aws-sdk-php": "3.*",
-                    "magento-hackathon/magento-composer-installer": "*",
-                    "matthiasmullie/minify": "^1.3"
-                },
-                "require-dev": {
-                    "jakub-onderka/php-console-highlighter": "0.*",
-                    "jakub-onderka/php-parallel-lint": "0.*",
-                    "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
-                    "phpmd/phpmd": "@stable",
-                    "sebastian/phpcpd": "*",
-                    "sebastian/phpdcd": "*",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2015-08-05 19:11:09",
-                "type": "magento-module",
-                "extra": {
-                    "magento-root-dir": ".",
-                    "with-bootstrap-patch": false
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Nikita Tarasov",
-                        "email": "nikita@mygento.net",
-                        "homepage": "http://www.mygento.net/",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Mygento",
-                        "email": "connect@mygento.net",
-                        "homepage": "http://www.mygento.net/"
-                    }
-                ],
-                "description": "CDN module",
-                "homepage": "https://github.com/mygento/cdn.git",
-                "keywords": [
-                    "amazon",
-                    "cdn",
-                    "magento",
-                    "s3",
-                    "selectel"
-                ]
-            },
             "dev-devel": {
                 "name": "mygento/cdn",
                 "version": "dev-devel",
@@ -5678,65 +5680,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "eab272e7a618239c1c39327cb0222c875887565d"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "3.0.2"
-                },
-                "require-dev": {
-                    "jakub-onderka/php-console-highlighter": "0.*",
-                    "jakub-onderka/php-parallel-lint": "0.*",
-                    "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
-                    "phpmd/phpmd": "@stable",
-                    "sebastian/phpcpd": "*",
-                    "sebastian/phpdcd": "*",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2015-07-03 14:36:42",
-                "type": "magento-module",
-                "extra": {
-                    "magento-root-dir": "."
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Nikita Tarasov",
-                        "email": "nikita@mygento.net",
-                        "homepage": "http://www.mygento.net/",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Mygento",
-                        "email": "connect@mygento.net",
-                        "homepage": "http://www.mygento.net/"
-                    }
-                ],
-                "description": "CDN module",
-                "homepage": "https://github.com/mygento/cdn.git",
-                "keywords": [
-                    "amazon",
-                    "cdn",
-                    "magento",
-                    "s3",
-                    "selectel"
-                ]
-            },
-            "dev-fix_minification": {
-                "name": "mygento/cdn",
-                "version": "dev-fix_minification",
-                "version_normalized": "dev-fix_minification",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/cdn",
-                    "reference": "fa28d199b5e697571633d663540aab3118882b1c"
+                    "reference": "4be6dadd5b5a93e1fd03f05afebed400bdaf6cd3"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
-                    "magento-hackathon/magento-composer-installer": "*",
-                    "matthiasmullie/minify": "dev-master"
+                    "magento-hackathon/magento-composer-installer": "3.*",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": ">=5.5"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -5748,7 +5698,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-27 12:58:18",
+                "time": "2015-08-28 10:43:11",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5770,7 +5720,7 @@
                         "homepage": "http://www.mygento.net/"
                     }
                 ],
-                "description": "CDN module",
+                "description": "Magento CDN module",
                 "homepage": "https://github.com/mygento/cdn.git",
                 "keywords": [
                     "amazon",
@@ -5779,39 +5729,6 @@
                     "s3",
                     "selectel"
                 ]
-            },
-            "dev-test": {
-                "name": "mygento/cdn",
-                "version": "dev-test",
-                "version_normalized": "dev-test",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/cdn",
-                    "reference": "633dd96b4648962a518888d6df3c52926b5135e1"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "require-dev": {
-                    "jakub-onderka/php-console-highlighter": "0.*",
-                    "jakub-onderka/php-parallel-lint": "0.*",
-                    "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
-                    "phpmd/phpmd": "@stable",
-                    "sebastian/phpcpd": "*",
-                    "sebastian/phpdcd": "*",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2015-04-15 11:42:29",
-                "type": "magento-module",
-                "extra": {
-                    "magento-root-dir": "."
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "description": "CDN module",
-                "homepage": "https://github.com/mygento/cdn.git"
             }
         },
         "mygento/coding-standard": {
@@ -6557,17 +6474,17 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "2.0.8": {
                 "name": "mygento/dpd",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.8",
+                "version_normalized": "2.0.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/dpd",
-                    "reference": "b2628aa580f15caf3c1afa66baea6cba61b8a038"
+                    "reference": "01059858e2bfcf4e36f9ad084ce7bf05954d9876"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                    "magento-hackathon/magento-composer-installer": "*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -6579,7 +6496,53 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-10 10:40:01",
+                "time": "2015-08-27 13:57:01",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "DPD shipping module",
+                "homepage": "http://www.mygento.ru/modules/dpd-magento.html",
+                "keywords": [
+                    "dpd",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/dpd",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "01059858e2bfcf4e36f9ad084ce7bf05954d9876"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-27 13:57:01",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -10236,14 +10199,14 @@
                 "description": "A Varnish extension for Magento.",
                 "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
             },
-            "dev-master": {
+            "0.6.5": {
                 "name": "nexcess/magento-turpentine",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.6.5",
+                "version_normalized": "0.6.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "feec575367627438a6c70ce7c457d09dddcf8d4d"
+                    "reference": "1e09f5bbc0af1911eba2ca5f3636b18c366d4c6d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10251,7 +10214,36 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-04 15:45:18",
+                "time": "2015-08-27 13:50:40",
+                "type": "magento-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Headley",
+                        "email": "aheadley@nexcess.net"
+                    }
+                ],
+                "description": "A Varnish extension for Magento.",
+                "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
+            },
+            "dev-master": {
+                "name": "nexcess/magento-turpentine",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nexcess/magento-turpentine.git",
+                    "reference": "c44ebcf355856322053b38214667f22d636c5345"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "replace": {
+                    "connect20/nexcessnet_turpentine": "self.version"
+                },
+                "time": "2015-08-27 13:57:03",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -10301,7 +10293,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "3f30eb9f95d13dc46655d3c3f9ebc7221b367a0b"
+                    "reference": "aa8d26f2300887068168f16ef6319f46a8848c7d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10309,7 +10301,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-25 21:04:19",
+                "time": "2015-08-27 13:53:41",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
