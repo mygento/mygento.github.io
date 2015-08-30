@@ -5560,14 +5560,14 @@
                     "selectel"
                 ]
             },
-            "dev-master": {
+            "1.6.4": {
                 "name": "mygento/cdn",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.6.4",
+                "version_normalized": "1.6.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "4be6dadd5b5a93e1fd03f05afebed400bdaf6cd3"
+                    "reference": "04046940b50f63f3f2e802875c91dbb38ba4d8ff"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5585,7 +5585,64 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-28 10:43:11",
+                "time": "2015-08-30 19:08:25",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Magento CDN module",
+                "homepage": "https://github.com/mygento/cdn.git",
+                "keywords": [
+                    "amazon",
+                    "cdn",
+                    "magento",
+                    "s3",
+                    "selectel"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/cdn",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/cdn",
+                    "reference": "04046940b50f63f3f2e802875c91dbb38ba4d8ff"
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.*",
+                    "magento-hackathon/magento-composer-installer": "3.*",
+                    "matthiasmullie/minify": "^1.3",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-30 19:08:25",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5680,7 +5737,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "4be6dadd5b5a93e1fd03f05afebed400bdaf6cd3"
+                    "reference": "04046940b50f63f3f2e802875c91dbb38ba4d8ff"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5698,7 +5755,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-28 10:43:11",
+                "time": "2015-08-30 19:08:25",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8969,14 +9026,14 @@
                 "description": "QIWI payment module",
                 "homepage": "https://bitbucket.org/mygento/qiwi"
             },
-            "dev-master": {
+            "2.0.3": {
                 "name": "mygento/qiwi",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.3",
+                "version_normalized": "2.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/qiwi",
-                    "reference": "8c4554d10d4e19e59f56eb157fff6756ccd67dd5"
+                    "reference": "fbc0a906808dbc7a3fa2ae2aeff63928f30bb066"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8985,18 +9042,71 @@
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-22 11:18:21",
+                "time": "2015-08-28 12:16:13",
                 "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
                 "license": [
                     "proprietary"
                 ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
                 "description": "QIWI payment module",
-                "homepage": "https://bitbucket.org/mygento/qiwi"
+                "homepage": "http://www.mygento.ru/modules/qiwi-wallet.html"
+            },
+            "dev-master": {
+                "name": "mygento/qiwi",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/qiwi",
+                    "reference": "fbc0a906808dbc7a3fa2ae2aeff63928f30bb066"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-28 12:16:13",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "QIWI payment module",
+                "homepage": "http://www.mygento.ru/modules/qiwi-wallet.html"
             }
         },
         "mygento/sberbank": {
@@ -9515,14 +9625,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.0.4": {
                 "name": "mygento/simplepay",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.4",
+                "version_normalized": "1.0.4.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/simplepay",
-                    "reference": "9abaf4b0506f36161656bbbecab0dc30612f5398"
+                    "reference": "8162bde4cb77d088bfd8020449a22cbbc25687c4"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9537,7 +9647,53 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-19 12:12:35",
+                "time": "2015-08-28 12:57:05",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SimplePay payment extension",
+                "homepage": "https://github.com/mygento/simplepay",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/simplepay",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/simplepay",
+                    "reference": "8162bde4cb77d088bfd8020449a22cbbc25687c4"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-08-28 12:57:05",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -10293,7 +10449,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "aa8d26f2300887068168f16ef6319f46a8848c7d"
+                    "reference": "bc4c3ebf459d1f06e2370f4c1df1a31319d3d47f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10301,7 +10457,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-27 13:53:41",
+                "time": "2015-08-28 15:14:34",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
