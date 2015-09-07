@@ -501,7 +501,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
-                    "reference": "880fcbdc38eb08cc1b89c4c8300a5b250c166e1d"
+                    "reference": "bc74b1a44a92037108ea6721cd2af0c3e7ca781b"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -510,7 +510,7 @@
                 "replace": {
                     "fbrnc/aoe_scheduler": "*"
                 },
-                "time": "2015-08-18 04:43:49",
+                "time": "2015-09-01 23:47:16",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -5737,7 +5737,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "04046940b50f63f3f2e802875c91dbb38ba4d8ff"
+                    "reference": "262d1fbe48ceb91689368446d954b1d6eadeaf3b"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5755,7 +5755,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-30 19:08:25",
+                "time": "2015-08-31 07:19:16",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -6584,7 +6584,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/dpd",
-                    "reference": "01059858e2bfcf4e36f9ad084ce7bf05954d9876"
+                    "reference": "b9e5f4b94b8812fc7cb136df45f10b3b550e1064"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6599,7 +6599,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-27 13:57:01",
+                "time": "2015-09-01 10:00:39",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8999,6 +8999,96 @@
                 "homepage": "https://bitbucket.org/mygento/openid"
             }
         },
+        "mygento/platron": {
+            "1.0.9": {
+                "name": "mygento/platron",
+                "version": "1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/platron",
+                    "reference": "94be519e3186517004d795b4d599cfa2390efba0"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-07 13:24:49",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Платежный модуль Platron",
+                "homepage": "http://www.mygento.ru/modules/payment/platron.html",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/platron",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/platron",
+                    "reference": "94be519e3186517004d795b4d599cfa2390efba0"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-07 13:24:49",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Платежный модуль Platron",
+                "homepage": "http://www.mygento.ru/modules/payment/platron.html",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            }
+        },
         "mygento/qiwi": {
             "2.0.2": {
                 "name": "mygento/qiwi",
@@ -9074,7 +9164,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/qiwi",
-                    "reference": "fbc0a906808dbc7a3fa2ae2aeff63928f30bb066"
+                    "reference": "ab115886efe3a72b61cb0cbfec234d5c232c61c3"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9089,7 +9179,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-28 12:16:13",
+                "time": "2015-09-01 11:28:41",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -9368,7 +9458,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/seo",
-                    "reference": "d4519f1ceeb2e778c0df297dd18589dc1a5f1b2d"
+                    "reference": "652155132795c280d5bf3b23b0f09693b73d978b"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9383,7 +9473,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-05 09:32:13",
+                "time": "2015-09-03 20:19:04",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -10175,7 +10265,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "19bbdb6bfdcd3259c8934378e2d9df2a66f60a9f"
+                    "reference": "ce92ec4bee95506f6899256eedbfe964ec0254bc"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.0.2"
@@ -10190,7 +10280,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-12 20:38:17",
+                "time": "2015-09-03 23:20:41",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -10449,7 +10539,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "bc4c3ebf459d1f06e2370f4c1df1a31319d3d47f"
+                    "reference": "cdbf11c353c19508c72c9e5bb31432a4d85daa33"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10457,7 +10547,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-28 15:14:34",
+                "time": "2015-09-03 13:01:11",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
