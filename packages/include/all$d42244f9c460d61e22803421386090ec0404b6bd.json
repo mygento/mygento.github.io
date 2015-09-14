@@ -501,7 +501,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
-                    "reference": "bc74b1a44a92037108ea6721cd2af0c3e7ca781b"
+                    "reference": "8676ae23faacb6b79ac1cdb1db6a895cd6387559"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -510,7 +510,7 @@
                 "replace": {
                     "fbrnc/aoe_scheduler": "*"
                 },
-                "time": "2015-09-01 23:47:16",
+                "time": "2015-09-08 18:23:34",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -5007,7 +5007,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "492424b9cf2e2d9b7870e3f1c9f131ee148fd5b2"
+                    "reference": "a8f041eb46af487a8d9622a4cdb7498467e80906"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -5022,7 +5022,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-08 09:22:34",
+                "time": "2015-09-08 09:47:58",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -7965,6 +7965,50 @@
                     "magento"
                 ]
             },
+            "2.5.4.1": {
+                "name": "mygento/exportymlpro",
+                "version": "2.5.4.1",
+                "version_normalized": "2.5.4.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "004fa4ae4b0d90eff056c7dbe24d7d398a99e600"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-10 11:39:28",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro",
+                "keywords": [
+                    "magento"
+                ]
+            },
             "2.5.5": {
                 "name": "mygento/exportymlpro",
                 "version": "2.5.5",
@@ -8036,10 +8080,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "e894eef3182f5c82f1b7494a4148d2f233f2d67e"
+                    "reference": "004fa4ae4b0d90eff056c7dbe24d7d398a99e600"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -8051,7 +8095,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-30 09:37:45",
+                "time": "2015-09-10 11:39:28",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8129,6 +8173,50 @@
                     "squizlabs/php_codesniffer": "2.*"
                 },
                 "time": "2015-08-24 11:51:08",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro",
+                "keywords": [
+                    "magento"
+                ]
+            },
+            "dev-luckyraul/shopmainphp-edited-online-with-bitbucket-1441884970760": {
+                "name": "mygento/exportymlpro",
+                "version": "dev-luckyraul/shopmainphp-edited-online-with-bitbucket-1441884970760",
+                "version_normalized": "dev-luckyraul/shopmainphp-edited-online-with-bitbucket-1441884970760",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "2229e40572c886bf36c6ed45d3cdee4dab4bed9a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-10 11:36:11",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8453,6 +8541,100 @@
                 "keywords": [
                     "geoip",
                     "magento"
+                ]
+            }
+        },
+        "mygento/googlemerchant": {
+            "dev-master": {
+                "name": "mygento/googlemerchant",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/googlemerchant.git",
+                    "reference": "9d1e2d2f64b5ea95c6e0b93ed56434e2d448b2bc"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-14 12:40:30",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Выгрузка товаров в Google Merchant Center",
+                "homepage": "http://www.mygento.ru/modules/integration/magento-google-shopping-merchant-feed.html",
+                "keywords": [
+                    "google",
+                    "magento",
+                    "merchant"
+                ]
+            },
+            "dev-devel": {
+                "name": "mygento/googlemerchant",
+                "version": "dev-devel",
+                "version_normalized": "dev-devel",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/googlemerchant.git",
+                    "reference": "6df13b02d3a13a0506130caa82a3718f75d83b8b"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-14 14:31:40",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Выгрузка товаров в Google Merchant Center",
+                "homepage": "http://www.mygento.ru/modules/integration/magento-google-shopping-merchant-feed.html",
+                "keywords": [
+                    "google",
+                    "magento",
+                    "merchant"
                 ]
             }
         },
@@ -9505,7 +9687,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/shortmessage",
-                    "reference": "aa911a82ab5ffe2518035116a6df30274c7c7353"
+                    "reference": "c26bfffa77b30f7a4d7b9ce2fab078223330a4bf"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9519,7 +9701,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-03-31 13:21:48",
+                "time": "2015-09-08 11:38:32",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -10521,14 +10703,14 @@
                 "description": "A Varnish extension for Magento.",
                 "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
             },
-            "dev-master": {
+            "0.6.6": {
                 "name": "nexcess/magento-turpentine",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.6.6",
+                "version_normalized": "0.6.6.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "c44ebcf355856322053b38214667f22d636c5345"
+                    "reference": "f89ae64fa0d5b415d4fcfbc1c15926d1482bcf38"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10536,7 +10718,36 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-08-27 13:57:03",
+                "time": "2015-09-14 12:51:12",
+                "type": "magento-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Headley",
+                        "email": "aheadley@nexcess.net"
+                    }
+                ],
+                "description": "A Varnish extension for Magento.",
+                "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
+            },
+            "dev-master": {
+                "name": "nexcess/magento-turpentine",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nexcess/magento-turpentine.git",
+                    "reference": "f89ae64fa0d5b415d4fcfbc1c15926d1482bcf38"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "replace": {
+                    "connect20/nexcessnet_turpentine": "self.version"
+                },
+                "time": "2015-09-14 12:51:12",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -10586,7 +10797,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "cdbf11c353c19508c72c9e5bb31432a4d85daa33"
+                    "reference": "08dbebe7f899d6394d0cdece01c4693447b3db05"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10594,7 +10805,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-09-03 13:01:11",
+                "time": "2015-09-14 12:44:27",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
