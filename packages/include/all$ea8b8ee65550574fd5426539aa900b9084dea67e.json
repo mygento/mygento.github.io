@@ -8591,14 +8591,14 @@
                     "merchant"
                 ]
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "mygento/googlemerchant",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/googlemerchant.git",
-                    "reference": "4bc3ce3c101ae91a545a1fe9502eb20eb5de5b51"
+                    "reference": "a40fa82a2464b19b905dfd25186849dadadd3d64"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8613,7 +8613,53 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-15 12:29:17",
+                "time": "2015-09-21 14:03:02",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Выгрузка товаров в Google Merchant Center",
+                "homepage": "http://www.mygento.ru/modules/integration/magento-google-shopping-merchant-feed.html",
+                "keywords": [
+                    "google",
+                    "magento",
+                    "merchant"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/googlemerchant",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/googlemerchant.git",
+                    "reference": "a40fa82a2464b19b905dfd25186849dadadd3d64"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-21 14:03:02",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -9731,7 +9777,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/seo",
-                    "reference": "c2a7cf115a333fc18ad8d5e0c3e4bd6db6c519b8"
+                    "reference": "f489e99d6cf33c55166655a5ffabda5b89969c30"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -9746,7 +9792,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-17 11:57:40",
+                "time": "2015-09-21 11:35:58",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -11023,7 +11069,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "67363b522849f9e13c537c9416dbab1196b16048"
+                    "reference": "75d1a58d7b230da6db2907ecc4f91fdfe140ab18"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -11031,7 +11077,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-09-17 14:13:56",
+                "time": "2015-09-21 12:58:16",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
