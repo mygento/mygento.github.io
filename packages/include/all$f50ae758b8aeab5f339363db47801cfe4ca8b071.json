@@ -8900,6 +8900,120 @@
                 "homepage": "https://github.com/mygento/metrika"
             }
         },
+        "mygento/minify": {
+            "1.0.0": {
+                "name": "mygento/minify",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/minify",
+                    "reference": "124548d68c15b0ca8fd03f55875f9a5c964ee4c2"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*",
+                    "matthiasmullie/minify": "^1.3",
+                    "mygento/base": "*",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-21 15:01:41",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Magento JS/CSS Minification Module",
+                "homepage": "https://github.com/mygento/minify.git",
+                "keywords": [
+                    "css",
+                    "js",
+                    "magento",
+                    "minify"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/minify",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/minify",
+                    "reference": "124548d68c15b0ca8fd03f55875f9a5c964ee4c2"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*",
+                    "matthiasmullie/minify": "^1.3",
+                    "mygento/base": "*",
+                    "php": ">=5.5"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-21 15:01:41",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Magento JS/CSS Minification Module",
+                "homepage": "https://github.com/mygento/minify.git",
+                "keywords": [
+                    "css",
+                    "js",
+                    "magento",
+                    "minify"
+                ]
+            }
+        },
         "mygento/mvendor": {
             "dev-master": {
                 "name": "mygento/mvendor",
@@ -9117,14 +9231,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.1.0": {
                 "name": "mygento/ocourier",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/ocourier.git",
-                    "reference": "4df663f3f0beb53e7917de93d31d68b29df3c6f5"
+                    "reference": "0b004c56dba3aec8d244b0d3a53cbb4730bab947"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9139,7 +9253,52 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-17 15:39:08",
+                "time": "2015-09-22 13:19:34",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Ocourier shipping extension",
+                "homepage": "https://bitbucket.org/mygento/ocourier",
+                "keywords": [
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/ocourier",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/ocourier.git",
+                    "reference": "0b004c56dba3aec8d244b0d3a53cbb4730bab947"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-22 13:19:34",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
