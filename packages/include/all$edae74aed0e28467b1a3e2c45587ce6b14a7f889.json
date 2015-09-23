@@ -4772,7 +4772,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "f554a0f3e9eca5f0de816be7e68ef5bb328b8494"
+                    "reference": "5f499602da53ba2812083ce148a54e29fe02be3f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -4787,7 +4787,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-27 12:15:53",
+                "time": "2015-09-23 12:57:44",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -6578,14 +6578,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "2.0.9": {
                 "name": "mygento/dpd",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.9",
+                "version_normalized": "2.0.9.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/dpd",
-                    "reference": "b9e5f4b94b8812fc7cb136df45f10b3b550e1064"
+                    "reference": "d05366d5c273a86e7b7f8c560dd76c8a2668cb33"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -6600,7 +6600,53 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-01 10:00:39",
+                "time": "2015-09-23 09:45:13",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "DPD shipping module",
+                "homepage": "http://www.mygento.ru/modules/dpd-magento.html",
+                "keywords": [
+                    "dpd",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/dpd",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "d05366d5c273a86e7b7f8c560dd76c8a2668cb33"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-09-23 09:45:13",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8644,7 +8690,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/googlemerchant.git",
-                    "reference": "a40fa82a2464b19b905dfd25186849dadadd3d64"
+                    "reference": "ab5cf941cc637b2878f357f0e92d53e4ea0fe2fd"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8659,7 +8705,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-21 14:03:02",
+                "time": "2015-09-22 19:20:59",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -9328,7 +9374,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/ocourier.git",
-                    "reference": "2f7e48c413f8d0cac75914cb963e8073e933f31e"
+                    "reference": "5de27936adc9cf5289505bb4fc523c20ee7dfb79"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9343,7 +9389,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-22 14:46:36",
+                "time": "2015-09-23 12:59:04",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -11273,7 +11319,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "75d1a58d7b230da6db2907ecc4f91fdfe140ab18"
+                    "reference": "97a1714f589a4c477d74cb34d9f623da7da4be86"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -11281,7 +11327,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-09-21 12:58:16",
+                "time": "2015-09-23 12:24:02",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
