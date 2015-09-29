@@ -501,7 +501,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
-                    "reference": "8676ae23faacb6b79ac1cdb1db6a895cd6387559"
+                    "reference": "3ff72fcc908eb54c3113038ce433a24c3153088a"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -510,7 +510,7 @@
                 "replace": {
                     "fbrnc/aoe_scheduler": "*"
                 },
-                "time": "2015-09-08 18:23:34",
+                "time": "2015-09-28 23:19:20",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
