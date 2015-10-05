@@ -5036,14 +5036,14 @@
                 "description": "CDEK shipping module",
                 "homepage": "https://bitbucket.org/mygento/cdek"
             },
-            "dev-master": {
+            "3.0.0.9": {
                 "name": "mygento/cdek",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "3.0.0.9",
+                "version_normalized": "3.0.0.9",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "a8f041eb46af487a8d9622a4cdb7498467e80906"
+                    "reference": "e40eccecff35b8f5787e3eb6ba42ec904a6bdbb9"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -5058,7 +5058,41 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-08 09:47:58",
+                "time": "2015-10-04 19:02:36",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "CDEK shipping module",
+                "homepage": "https://bitbucket.org/mygento/cdek"
+            },
+            "dev-master": {
+                "name": "mygento/cdek",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/cdek",
+                    "reference": "6c97596d1370fcd8fc86a8a134d064ae59c8cd77"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-10-04 22:21:33",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
