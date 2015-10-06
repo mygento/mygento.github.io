@@ -9449,14 +9449,14 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "1.1.2": {
                 "name": "mygento/ocourier",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/ocourier.git",
-                    "reference": "5de27936adc9cf5289505bb4fc523c20ee7dfb79"
+                    "reference": "d39a027c41418d64cb84c9f6cb2c094ba3aaafa9"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9471,7 +9471,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-23 12:59:04",
+                "time": "2015-10-06 11:03:27",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -9491,6 +9491,53 @@
                 "homepage": "https://bitbucket.org/mygento/ocourier",
                 "keywords": [
                     "magento",
+                    "ozon",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/ocourier",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/ocourier.git",
+                    "reference": "d39a027c41418d64cb84c9f6cb2c094ba3aaafa9"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-10-06 11:03:27",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Ocourier shipping extension",
+                "homepage": "https://bitbucket.org/mygento/ocourier",
+                "keywords": [
+                    "magento",
+                    "ozon",
                     "shipping"
                 ]
             },
