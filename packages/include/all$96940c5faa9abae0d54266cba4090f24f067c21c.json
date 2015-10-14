@@ -5104,14 +5104,14 @@
                 "description": "CDEK shipping module",
                 "homepage": "https://bitbucket.org/mygento/cdek"
             },
-            "dev-master": {
+            "3.0.1.0": {
                 "name": "mygento/cdek",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "3.0.1.0",
+                "version_normalized": "3.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "ee9db22e41b69379a425542a54770518789eaa7d"
+                    "reference": "a7e22e34a3ca834fbd7565733731a7923de5915f"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -5126,7 +5126,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-10-14 08:34:26",
+                "time": "2015-10-14 09:57:58",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5135,8 +5135,64 @@
                 "license": [
                     "proprietary"
                 ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
                 "description": "CDEK shipping module",
-                "homepage": "https://bitbucket.org/mygento/cdek"
+                "homepage": "https://bitbucket.org/mygento/cdek",
+                "keywords": [
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/cdek",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/cdek",
+                    "reference": "a7e22e34a3ca834fbd7565733731a7923de5915f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-10-14 09:57:58",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "CDEK shipping module",
+                "homepage": "https://bitbucket.org/mygento/cdek",
+                "keywords": [
+                    "magento",
+                    "shipping"
+                ]
             },
             "dev-devel": {
                 "name": "mygento/cdek",
