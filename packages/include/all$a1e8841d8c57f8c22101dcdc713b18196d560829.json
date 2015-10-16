@@ -4808,7 +4808,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/boxberry.git",
-                    "reference": "b5abebb639a35e93b7b8f9782f6658a40131e303"
+                    "reference": "7589834c8dd76da2d5386abfdd69b6b985ddef8c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -4823,7 +4823,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-24 08:01:30",
+                "time": "2015-10-16 08:43:05",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -11674,7 +11674,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "fa1198d7f76dbc9c8367d6ea3a8263ead99a34e1"
+                    "reference": "e67bef6fb804f1ceaf1448f4f23a621afd51274e"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -11682,7 +11682,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-10-13 18:03:58",
+                "time": "2015-10-15 13:28:47",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -11767,6 +11767,35 @@
                 "type": "magento-module",
                 "license": [
                     "GPLv2+"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Headley",
+                        "email": "aheadley@nexcess.net"
+                    }
+                ],
+                "description": "A Varnish extension for Magento.",
+                "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
+            },
+            "dev-scrutinizer-patch-1": {
+                "name": "nexcess/magento-turpentine",
+                "version": "dev-scrutinizer-patch-1",
+                "version_normalized": "dev-scrutinizer-patch-1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nexcess/magento-turpentine.git",
+                    "reference": "e419a546dc81982d30142acd6c1283eaf9dbb438"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "replace": {
+                    "connect20/nexcessnet_turpentine": "self.version"
+                },
+                "time": "2015-10-15 13:25:05",
+                "type": "magento-module",
+                "license": [
+                    "GPL-2.0+"
                 ],
                 "authors": [
                     {
