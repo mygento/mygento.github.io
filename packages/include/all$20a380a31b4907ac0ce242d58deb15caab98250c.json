@@ -5836,7 +5836,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "04046940b50f63f3f2e802875c91dbb38ba4d8ff"
+                    "reference": "5aade83951042536ce15897ba1b1a6ac88cceadf"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5854,7 +5854,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-30 19:08:25",
+                "time": "2015-10-22 12:16:50",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5886,62 +5886,6 @@
                     "selectel"
                 ]
             },
-            "dev-cache": {
-                "name": "mygento/cdn",
-                "version": "dev-cache",
-                "version_normalized": "dev-cache",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/cdn",
-                    "reference": "0516a0ac038ebd9233dcf7f06ad0c29d0ab5f15d"
-                },
-                "require": {
-                    "aws/aws-sdk-php": "3.*",
-                    "magento-hackathon/magento-composer-installer": "*",
-                    "matthiasmullie/minify": "^1.3"
-                },
-                "require-dev": {
-                    "jakub-onderka/php-console-highlighter": "0.*",
-                    "jakub-onderka/php-parallel-lint": "0.*",
-                    "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
-                    "phpmd/phpmd": "@stable",
-                    "sebastian/phpcpd": "*",
-                    "sebastian/phpdcd": "*",
-                    "squizlabs/php_codesniffer": "2.*"
-                },
-                "time": "2015-08-18 19:58:13",
-                "type": "magento-module",
-                "extra": {
-                    "magento-root-dir": ".",
-                    "with-bootstrap-patch": false
-                },
-                "license": [
-                    "Apache-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Nikita Tarasov",
-                        "email": "nikita@mygento.net",
-                        "homepage": "http://www.mygento.net/",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Mygento",
-                        "email": "connect@mygento.net",
-                        "homepage": "http://www.mygento.net/"
-                    }
-                ],
-                "description": "CDN module",
-                "homepage": "https://github.com/mygento/cdn.git",
-                "keywords": [
-                    "amazon",
-                    "cdn",
-                    "magento",
-                    "s3",
-                    "selectel"
-                ]
-            },
             "dev-devel": {
                 "name": "mygento/cdn",
                 "version": "dev-devel",
@@ -5949,7 +5893,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/cdn",
-                    "reference": "ef2a0301bb3959e91d7135aac8163b38c0fed942"
+                    "reference": "c4c9b1a14714c595044e0613ea23a9fd3b1d62cb"
                 },
                 "require": {
                     "aws/aws-sdk-php": "3.*",
@@ -5967,7 +5911,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-18 13:23:38",
+                "time": "2015-10-22 12:19:17",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -10894,14 +10838,14 @@
                 "description": "SPSR shipping module",
                 "homepage": "http://www.mygento.ru/modules/spsr-express.html"
             },
-            "dev-master": {
+            "2.0.9": {
                 "name": "mygento/spsr",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.0.9",
+                "version_normalized": "2.0.9.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/spsr",
-                    "reference": "6d43303ef9b2928ec27d9fe8cde291a4cef89c46"
+                    "reference": "e96e9923696b3d94c1671dc39b892d386b6ae456"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -10916,16 +10860,75 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-02 09:58:09",
+                "time": "2015-10-22 21:03:08",
                 "type": "magento-module",
                 "extra": {
-                    "magento-root-dir": "."
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
                 },
                 "license": [
                     "proprietary"
                 ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
                 "description": "SPSR shipping module",
-                "homepage": "http://www.mygento.ru/modules/spsr-express.html"
+                "homepage": "http://www.mygento.ru/modules/spsr-express.html",
+                "keywords": [
+                    "magento",
+                    "shipping",
+                    "spsr"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/spsr",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/spsr",
+                    "reference": "b7c43db8294a3e262587f32cca47bf8da469cac5"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-10-26 08:59:00",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "SPSR shipping module",
+                "homepage": "http://www.mygento.ru/modules/spsr-express.html",
+                "keywords": [
+                    "magento",
+                    "shipping",
+                    "spsr"
+                ]
             },
             "dev-devel": {
                 "name": "mygento/spsr",
@@ -11422,7 +11425,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "ca3a534995cd1ba955da1931ed1c4e491d59da83"
+                    "reference": "a4527e853848f09748dd257474ecba09143fb458"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -11437,7 +11440,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-10-20 16:25:35",
+                "time": "2015-10-26 07:48:06",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
