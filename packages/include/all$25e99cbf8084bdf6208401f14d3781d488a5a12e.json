@@ -1106,6 +1106,42 @@
                     "source": "https://bitbucket.org/etws/et_currencymanager"
                 }
             },
+            "1.2.6.1": {
+                "name": "etws/et_currencymanager",
+                "version": "1.2.6.1",
+                "version_normalized": "1.2.6.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/etws/et_currencymanager",
+                    "reference": "ff2efd304c05649b418b1f90713069fef939abb4"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "time": "2015-10-27 12:04:24",
+                "type": "magento-module",
+                "license": [
+                    "EFL-1.0"
+                ],
+                "authors": [
+                    {
+                        "name": "ET Web Solutions",
+                        "email": "support@etwebsolutions.com",
+                        "homepage": "http://www.etwebsolutions.com/"
+                    }
+                ],
+                "description": "Currency Manager lets shop owner manage price display in an easy and convenient way: show custom currency symbol, change its position, change number of decimals and etc.",
+                "homepage": "http://shop.etwebsolutions.com/eng/et-currency-manager.html",
+                "keywords": [
+                    "currency",
+                    "magento"
+                ],
+                "support": {
+                    "email": "support@etwebsolutions.com",
+                    "issues": "https://bitbucket.org/etws/et_currencymanager/issues?status=new&status=open",
+                    "source": "https://bitbucket.org/etws/et_currencymanager"
+                }
+            },
             "dev-master": {
                 "name": "etws/et_currencymanager",
                 "version": "dev-master",
