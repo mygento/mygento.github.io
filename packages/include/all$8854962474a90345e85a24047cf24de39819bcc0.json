@@ -537,7 +537,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
-                    "reference": "72cb8bdf18fd108198acfb2a6f96e8836a349058"
+                    "reference": "90abbe4c46c56f5b6bd22b27eb46aec9a9c0820d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*",
@@ -546,7 +546,7 @@
                 "replace": {
                     "fbrnc/aoe_scheduler": "*"
                 },
-                "time": "2015-10-27 17:33:56",
+                "time": "2015-11-04 21:46:37",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -619,6 +619,42 @@
                     "fbrnc/aoe_scheduler": "*"
                 },
                 "time": "2015-06-26 19:31:04",
+                "type": "magento-module",
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Fabrizio Branca",
+                        "email": "firstname.lastname@aoe.com",
+                        "role": "Author/Maintainer"
+                    },
+                    {
+                        "name": "Lee Saferite",
+                        "email": "lee.saferite@aoe.com",
+                        "role": "Contributor/Maintainer"
+                    }
+                ],
+                "description": "Magento Cron Scheduler",
+                "homepage": "https://github.com/AOEpeople/Aoe_Scheduler"
+            },
+            "dev-issue/176_abandoned_locks": {
+                "name": "aoepeople/aoe_scheduler",
+                "version": "dev-issue/176_abandoned_locks",
+                "version_normalized": "dev-issue/176_abandoned_locks",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/AOEpeople/Aoe_Scheduler.git",
+                    "reference": "00810f0762383bfb8c491990d170a5335e4c0549"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*",
+                    "php": ">=5.3"
+                },
+                "replace": {
+                    "fbrnc/aoe_scheduler": "*"
+                },
+                "time": "2015-11-04 21:45:59",
                 "type": "magento-module",
                 "license": [
                     "GPL-3.0"
@@ -1177,6 +1213,42 @@
                     "issues": "https://bitbucket.org/etws/et_currencymanager/issues?status=new&status=open",
                     "source": "https://bitbucket.org/etws/et_currencymanager"
                 }
+            },
+            "dev-develop": {
+                "name": "etws/et_currencymanager",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://bitbucket.org/etws/et_currencymanager",
+                    "reference": "7c63388d442e5b44e710c37b4e9af38c798f283a"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "time": "2015-10-27 12:04:24",
+                "type": "magento-module",
+                "license": [
+                    "EFL-1.0"
+                ],
+                "authors": [
+                    {
+                        "name": "ET Web Solutions",
+                        "email": "support@etwebsolutions.com",
+                        "homepage": "http://www.etwebsolutions.com/"
+                    }
+                ],
+                "description": "Currency Manager lets shop owner manage price display in an easy and convenient way: show custom currency symbol, change its position, change number of decimals and etc.",
+                "homepage": "http://shop.etwebsolutions.com/eng/et-currency-manager.html",
+                "keywords": [
+                    "currency",
+                    "magento"
+                ],
+                "support": {
+                    "email": "support@etwebsolutions.com",
+                    "issues": "https://bitbucket.org/etws/et_currencymanager/issues?status=new&status=open",
+                    "source": "https://bitbucket.org/etws/et_currencymanager"
+                }
             }
         },
         "magento/core": {
@@ -1378,6 +1450,103 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.6.2.0-patch2": {
+                "name": "magento/core",
+                "version": "1.6.2.0-patch2",
+                "version_normalized": "1.6.2.0-patch2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "9598ed5df3af9cab4d1646cfc48fbe112dd71097"
+                },
+                "time": "2015-11-03 09:33:54",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.6.x-dev": {
                 "name": "magento/core",
                 "version": "1.6.x-dev",
@@ -1385,9 +1554,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "5fa74d506cb6838a8bb8c0b958389fe47eb9fd10"
+                    "reference": "9598ed5df3af9cab4d1646cfc48fbe112dd71097"
                 },
-                "time": "2015-02-17 07:32:20",
+                "time": "2015-11-03 09:33:54",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -2283,6 +2452,107 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.7.0.2-patch8": {
+                "name": "magento/core",
+                "version": "1.7.0.2-patch8",
+                "version_normalized": "1.7.0.2-patch8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "54904c786daac09bc778d2b5f014bdd4afa92585"
+                },
+                "time": "2015-11-03 09:46:04",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.7.x-dev": {
                 "name": "magento/core",
                 "version": "1.7.x-dev",
@@ -2290,9 +2560,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "c6f980f30896f0dc9fabeeece958396b7fb7dd26"
+                    "reference": "54904c786daac09bc778d2b5f014bdd4afa92585"
                 },
-                "time": "2015-07-09 19:36:14",
+                "time": "2015-11-03 09:46:04",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -2586,6 +2856,107 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.8.1.0-patch2": {
+                "name": "magento/core",
+                "version": "1.8.1.0-patch2",
+                "version_normalized": "1.8.1.0-patch2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "1ab4fb42022842152743fda2ed498fac2b45b023"
+                },
+                "time": "2015-11-03 09:59:05",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "pkginfo",
+                            "pkginfo"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.8.x-dev": {
                 "name": "magento/core",
                 "version": "1.8.x-dev",
@@ -2593,9 +2964,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "836767292a148d44136bd097eebf00a95a2798b9"
+                    "reference": "1ab4fb42022842152743fda2ed498fac2b45b023"
                 },
-                "time": "2015-02-17 07:32:59",
+                "time": "2015-11-03 09:59:05",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -3927,6 +4298,111 @@
                 "description": "Magento Core",
                 "homepage": "http://www.magentocommerce.com"
             },
+            "1.9.2.2-patch1": {
+                "name": "magento/core",
+                "version": "1.9.2.2-patch1",
+                "version_normalized": "1.9.2.2-patch1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bragento/magento-core",
+                    "reference": "5294894d1500f09de4e497732b94a3a7d1525263"
+                },
+                "time": "2015-11-03 10:06:41",
+                "type": "magento-core",
+                "extra": {
+                    "map": [
+                        [
+                            "app",
+                            "app"
+                        ],
+                        [
+                            "dev",
+                            "dev"
+                        ],
+                        [
+                            "downloader",
+                            "downloader"
+                        ],
+                        [
+                            "errors",
+                            "errors"
+                        ],
+                        [
+                            "includes",
+                            "includes"
+                        ],
+                        [
+                            "js",
+                            "js"
+                        ],
+                        [
+                            "lib",
+                            "lib"
+                        ],
+                        [
+                            "media",
+                            "media"
+                        ],
+                        [
+                            "shell",
+                            "shell"
+                        ],
+                        [
+                            "skin",
+                            "skin"
+                        ],
+                        [
+                            "var",
+                            "var"
+                        ],
+                        [
+                            ".htaccess",
+                            ".htaccess"
+                        ],
+                        [
+                            "api.php",
+                            "api.php"
+                        ],
+                        [
+                            "cron.php",
+                            "cron.php"
+                        ],
+                        [
+                            "cron.sh",
+                            "cron.sh"
+                        ],
+                        [
+                            "favicon.ico",
+                            "favicon.ico"
+                        ],
+                        [
+                            "get.php",
+                            "get.php"
+                        ],
+                        [
+                            "index.php",
+                            "index.php"
+                        ],
+                        [
+                            "install.php",
+                            "install.php"
+                        ],
+                        [
+                            "mage",
+                            "mage"
+                        ],
+                        [
+                            "LICENSE.html",
+                            "LICENSE.html"
+                        ]
+                    ]
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Magento Core",
+                "homepage": "http://www.magentocommerce.com"
+            },
             "1.9.x-dev": {
                 "name": "magento/core",
                 "version": "1.9.x-dev",
@@ -3934,9 +4410,9 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bragento/magento-core",
-                    "reference": "5dc8942a330a462e0992494d4cd70d028f27c851"
+                    "reference": "5294894d1500f09de4e497732b94a3a7d1525263"
                 },
-                "time": "2015-10-28 07:42:31",
+                "time": "2015-11-03 10:06:41",
                 "type": "magento-core",
                 "extra": {
                     "map": [
@@ -10667,27 +11143,36 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/shortmessage",
-                    "reference": "c26bfffa77b30f7a4d7b9ce2fab078223330a4bf"
+                    "reference": "3bbe6c1e07338f1b7c794d4962d7a0f4b01e2233"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-08 11:38:32",
+                "time": "2015-11-03 16:19:44",
                 "type": "magento-module",
                 "extra": {
-                    "magento-root-dir": "."
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
                 },
                 "license": [
                     "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
                 ],
                 "description": "Shortmessage module",
                 "homepage": "https://bitbucket.org/mygento/shortmessage"
