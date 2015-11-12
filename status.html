@@ -1,330 +1,649 @@
 <html>
-    <head>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <title>Mygento Modules Status Page</title>
-    </head>
-    <body>
-        <h1>Mygento Module status</h1>
-        <div class="table-responsive">
-            <table class="table table-striped table-bordered ">
-            	<thead>
-            		<tr>
-            			<td>Module</td>
-            			<td>Master Status</td>
-            			<td>Devel Status</td>
-            			<td>Code Quality</td>
-            			<td>Scrutinizer</td>
-            		</tr>
-            	</thead>
-            	<tbody>
-                	<tr>
-                		<td>Mygento Base</td>
-                		<td><a href="https://travis-ci.org/mygento/base"><img src="https://travis-ci.org/mygento/base.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/base"><img src="https://travis-ci.org/mygento/base.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/base"><img src="https://codeclimate.com/github/mygento/base/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/base/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/base/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Cdn</td>
-                		<td><a href="https://travis-ci.org/mygento/cdn"><img src="https://travis-ci.org/mygento/cdn.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/cdn"><img src="https://travis-ci.org/mygento/cdn.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/cdn"><img src="https://codeclimate.com/github/mygento/cdn/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/cdn/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/cdn/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-                    <tr>
-                		<td>Mygento Minify</td>
-                		<td><a href="https://travis-ci.org/mygento/minify"><img src="https://travis-ci.org/mygento/minify.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/minify"><img src="https://travis-ci.org/mygento/minify.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/minify"><img src="https://codeclimate.com/github/mygento/minify/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/minify/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/minify/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-                    <tr>
-                        <td>Mygento SimplePay</td>
-                        <td><a href="https://travis-ci.org/mygento/simplepay"><img src="https://travis-ci.org/mygento/simplepay.svg?branch=master"></a></td>
-                        <td><a href="https://travis-ci.org/mygento/simplepay"><img src="https://travis-ci.org/mygento/simplepay.svg?branch=devel"></a></td>
-                        <td><a href="https://codeclimate.com/github/mygento/simplepay"><img src="https://codeclimate.com/github/mygento/simplepay/badges/gpa.svg" /></a></td>
-                        <td><a href="https://scrutinizer-ci.com/g/mygento/simplepay/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/simplepay/badges/quality-score.png?b=master"></a></td>
-                    </tr>
-            		<tr>
-                		<td>Mygento Metrika</td>
-                		<td><a href="https://travis-ci.org/mygento/metrika"><img src="https://travis-ci.org/mygento/metrika.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/metrika"><img src="https://travis-ci.org/mygento/metrika.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/metrika"><img src="https://codeclimate.com/github/mygento/metrika/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/metrika/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/metrika/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Piwik</td>
-                		<td><a href="https://travis-ci.org/mygento/piwik"><img src="https://travis-ci.org/mygento/piwik.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/piwik"><img src="https://travis-ci.org/mygento/piwik.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/piwik"><img src="https://codeclimate.com/github/mygento/piwik/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/piwik/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/piwik/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Configurable Index</td>
-                		<td><a href="https://travis-ci.org/mygento/configurable_index"><img src="https://travis-ci.org/mygento/configurable_index.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/configurable_index"><img src="https://travis-ci.org/mygento/configurable_index.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/configurable_index"><img src="https://codeclimate.com/github/mygento/configurable_index/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/configurable_index/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/configurable_index/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Payture</td>
-                		<td><a href="https://travis-ci.org/mygento/payture"><img src="https://travis-ci.org/mygento/payture.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/payture"><img src="https://travis-ci.org/mygento/payture.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/payture"><img src="https://codeclimate.com/github/mygento/payture/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/payture/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/payture/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Currency</td>
-                		<td><a href="https://travis-ci.org/mygento/currency"><img src="https://travis-ci.org/mygento/currency.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/currency"><img src="https://travis-ci.org/mygento/currency.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/currency"><img src="https://codeclimate.com/github/mygento/currency/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/currency/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/currency/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Geoip</td>
-                		<td><a href="https://travis-ci.org/mygento/geoip"><img src="https://travis-ci.org/mygento/geoip.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/geoip"><img src="https://travis-ci.org/mygento/geoip.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/geoip"><img src="https://codeclimate.com/github/mygento/geoip/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/geoip/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/geoip/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Eventmon</td>
-                		<td><a href="https://travis-ci.org/mygento/eventmon"><img src="https://travis-ci.org/mygento/eventmon.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/eventmon"><img src="https://travis-ci.org/mygento/eventmon.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/eventmon"><img src="https://codeclimate.com/github/mygento/eventmon/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/eventmon/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/eventmon/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento jQuerylib</td>
-                		<td><a href="https://travis-ci.org/mygento/jquerylib"><img src="https://travis-ci.org/mygento/jquerylib.svg?branch=master"></a></td>
-                		<td><a href="https://travis-ci.org/mygento/jquerylib"><img src="https://travis-ci.org/mygento/jquerylib.svg?branch=devel"></a></td>
-                		<td><a href="https://codeclimate.com/github/mygento/jquerylib"><img src="https://codeclimate.com/github/mygento/jquerylib/badges/gpa.svg" /></a></td>
-                		<td><a href="https://scrutinizer-ci.com/g/mygento/jquerylib/?branch=master"><img src="https://scrutinizer-ci.com/g/mygento/jquerylib/badges/quality-score.png?b=master"></a></td>
-            		</tr>
-            		<tr>
-                		<td>Mygento Mvendor</td>
-                		<td><img src="https://api.shippable.com/projects/552d29c55ab6cc1352c3aa4c/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/552d29c55ab6cc1352c3aa4c/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                        <td>Mygento Boxberry</td>
-                        <td><img src="https://api.shippable.com/projects/555a0821edd7f2c052f2516d/badge?branchName=master"></td>
-                        <td><img src="https://api.shippable.com/projects/555a0821edd7f2c052f2516d/badge?branchName=devel"></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Mygento Ocourier</td>
-                        <td><img src="https://api.shippable.com/projects/557ed23eedd7f2c052172ccf/badge?branchName=master"></td>
-                        <td><img src="https://api.shippable.com/projects/557ed23eedd7f2c052172ccf/badge?branchName=devel"></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Yandexmoney</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dd/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dd/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Yandex Export</td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfa/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfa/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Exgarant</td>
-                		<td><img src="https://api.shippable.com/projects/55112ae35ab6cc1352a90e82/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/55112ae35ab6cc1352a90e82/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Cdek</td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfb/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfb/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Yandexkassa</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e4/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e4/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Friendlycheckout</td>
-                		<td><img src="https://api.shippable.com/projects/54469f07b904a4b21567ccee/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f07b904a4b21567ccee/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Avangard</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5db/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5db/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento DPD</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d8/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d8/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento PDFInvoice</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5de/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5de/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento OpenID</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d7/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d7/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Shortmessage</td>
-                		<td><img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf0/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf0/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento SPSR</td>
-                		<td><img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf6/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf6/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Qiwi</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dc/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dc/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Alfabank</td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfc/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfc/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Sberbank</td>
-                		<td><img src="https://api.shippable.com/projects/55664399edd7f2c052fe2aaa/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/55664399edd7f2c052fe2aaa/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Deloviye linii</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e2/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e2/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Seo</td>
-                		<td><img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd04/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd04/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Google Merchant</td>
-                		<td><img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf1/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf1/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Multiwarehouse</td>
-                		<td><img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd02/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd02/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Outofstock</td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfe/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfe/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Pek</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d5/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d5/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Platron</td>
-                		<td><img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd06/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd06/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Robokassa</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e3/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e3/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Sbrf</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5df/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5df/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Webmoney</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e1/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e1/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Webpay</td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5da/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/54c507945ab6cc135289b5da/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Cloud Backup</td>
-                		<td><img src="https://api.shippable.com/projects/551bafdd5ab6cc1352b25ccc/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/551bafdd5ab6cc1352b25ccc/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-                    <tr>
-                		<td>Mygento Fee</td>
-                		<td><img src="https://api.shippable.com/projects/550fe7b15ab6cc1352a7e137/badge?branchName=master"></td>
-                		<td><img src="https://api.shippable.com/projects/550fe7b15ab6cc1352a7e137/badge?branchName=devel"></td>
-                		<td></td>
-                		<td></td>
-                    </tr>
-            	</tbody>
-            </table>
-        </div>
-    </body>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <title>Mygento Modules Status Page</title>
+</head>
+
+<body>
+    <h1>Mygento Module status</h1>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered ">
+            <thead>
+                <tr>
+                    <td>Module</td>
+                    <td>Master Status</td>
+                    <td>Devel Status</td>
+                    <td>Code Quality</td>
+                    <td>Scrutinizer</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mygento Base</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/base">
+                            <img src="https://travis-ci.org/mygento/base.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/base">
+                            <img src="https://travis-ci.org/mygento/base.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/base">
+                            <img src="https://codeclimate.com/github/mygento/base/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/base/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/base/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Cdn</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/cdn">
+                            <img src="https://travis-ci.org/mygento/cdn.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/cdn">
+                            <img src="https://travis-ci.org/mygento/cdn.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/cdn">
+                            <img src="https://codeclimate.com/github/mygento/cdn/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/cdn/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/cdn/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Minify</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/minify">
+                            <img src="https://travis-ci.org/mygento/minify.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/minify">
+                            <img src="https://travis-ci.org/mygento/minify.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/minify">
+                            <img src="https://codeclimate.com/github/mygento/minify/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/minify/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/minify/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento SimplePay</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/simplepay">
+                            <img src="https://travis-ci.org/mygento/simplepay.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/simplepay">
+                            <img src="https://travis-ci.org/mygento/simplepay.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/simplepay">
+                            <img src="https://codeclimate.com/github/mygento/simplepay/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/simplepay/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/simplepay/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Metrika</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/metrika">
+                            <img src="https://travis-ci.org/mygento/metrika.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/metrika">
+                            <img src="https://travis-ci.org/mygento/metrika.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/metrika">
+                            <img src="https://codeclimate.com/github/mygento/metrika/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/metrika/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/metrika/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Piwik</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/piwik">
+                            <img src="https://travis-ci.org/mygento/piwik.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/piwik">
+                            <img src="https://travis-ci.org/mygento/piwik.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/piwik">
+                            <img src="https://codeclimate.com/github/mygento/piwik/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/piwik/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/piwik/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Configurable Index</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/configurable_index">
+                            <img src="https://travis-ci.org/mygento/configurable_index.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/configurable_index">
+                            <img src="https://travis-ci.org/mygento/configurable_index.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/configurable_index">
+                            <img src="https://codeclimate.com/github/mygento/configurable_index/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/configurable_index/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/configurable_index/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Payture</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/payture">
+                            <img src="https://travis-ci.org/mygento/payture.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/payture">
+                            <img src="https://travis-ci.org/mygento/payture.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/payture">
+                            <img src="https://codeclimate.com/github/mygento/payture/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/payture/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/payture/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Currency</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/currency">
+                            <img src="https://travis-ci.org/mygento/currency.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/currency">
+                            <img src="https://travis-ci.org/mygento/currency.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/currency">
+                            <img src="https://codeclimate.com/github/mygento/currency/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/currency/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/currency/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Geoip</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/geoip">
+                            <img src="https://travis-ci.org/mygento/geoip.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/geoip">
+                            <img src="https://travis-ci.org/mygento/geoip.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/geoip">
+                            <img src="https://codeclimate.com/github/mygento/geoip/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/geoip/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/geoip/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Eventmon</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/eventmon">
+                            <img src="https://travis-ci.org/mygento/eventmon.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/eventmon">
+                            <img src="https://travis-ci.org/mygento/eventmon.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/eventmon">
+                            <img src="https://codeclimate.com/github/mygento/eventmon/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/eventmon/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/eventmon/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento jQuerylib</td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/jquerylib">
+                            <img src="https://travis-ci.org/mygento/jquerylib.svg?branch=master">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://travis-ci.org/mygento/jquerylib">
+                            <img src="https://travis-ci.org/mygento/jquerylib.svg?branch=devel">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://codeclimate.com/github/mygento/jquerylib">
+                            <img src="https://codeclimate.com/github/mygento/jquerylib/badges/gpa.svg" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://scrutinizer-ci.com/g/mygento/jquerylib/?branch=master">
+                            <img src="https://scrutinizer-ci.com/g/mygento/jquerylib/badges/quality-score.png?b=master">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mygento Mvendor</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/552d29c55ab6cc1352c3aa4c/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/552d29c55ab6cc1352c3aa4c/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Boxberry</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/555a0821edd7f2c052f2516d/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/555a0821edd7f2c052f2516d/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Ocourier</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/557ed23eedd7f2c052172ccf/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/557ed23eedd7f2c052172ccf/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Yandexmoney</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dd/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dd/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Yandex Export</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfa/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfa/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Exgarant</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/55112ae35ab6cc1352a90e82/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/55112ae35ab6cc1352a90e82/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Cdek</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfb/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfb/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Yandexkassa</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e4/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e4/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Friendlycheckout</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f07b904a4b21567ccee/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f07b904a4b21567ccee/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Avangard</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5db/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5db/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento DPD</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d8/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d8/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento PDFInvoice</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5de/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5de/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento OpenID</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d7/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d7/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Shortmessage</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf0/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf0/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento SPSR</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf6/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf6/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Qiwi</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dc/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5dc/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Alfabank</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfc/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfc/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Sberbank</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/55664399edd7f2c052fe2aaa/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/55664399edd7f2c052fe2aaa/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Deloviye linii</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e2/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e2/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Seo</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd04/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd04/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Google Merchant</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf1/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f08b904a4b21567ccf1/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Multiwarehouse</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd02/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd02/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Outofstock</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfe/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f09b904a4b21567ccfe/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Pek</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d5/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5d5/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Platron</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd06/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54469f0ab904a4b21567cd06/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Robokassa</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e3/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e3/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Sbrf</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5df/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5df/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Webmoney</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e1/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5e1/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Webpay</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5da/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/54c507945ab6cc135289b5da/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Cloud Backup</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/551bafdd5ab6cc1352b25ccc/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/551bafdd5ab6cc1352b25ccc/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Mygento Fee</td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/550fe7b15ab6cc1352a7e137/badge?branchName=master">
+                    </td>
+                    <td>
+                        <img src="https://api.shippable.com/projects/550fe7b15ab6cc1352a7e137/badge?branchName=devel">
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
 </html>
