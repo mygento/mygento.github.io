@@ -1250,19 +1250,19 @@
                     "source": "https://bitbucket.org/etws/et_currencymanager"
                 }
             },
-            "dev-master": {
+            "1.2.7": {
                 "name": "etws/et_currencymanager",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
                 "source": {
                     "type": "git",
                     "url": "https://bitbucket.org/etws/et_currencymanager",
-                    "reference": "7c63388d442e5b44e710c37b4e9af38c798f283a"
+                    "reference": "ed569b5bb047ca3c9e5850c42a6651dd875adb7d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
                 },
-                "time": "2015-10-27 12:04:24",
+                "time": "2015-11-12 12:47:37",
                 "type": "magento-module",
                 "license": [
                     "EFL-1.0"
@@ -1286,19 +1286,19 @@
                     "source": "https://bitbucket.org/etws/et_currencymanager"
                 }
             },
-            "dev-1.2.7_pre": {
+            "dev-master": {
                 "name": "etws/et_currencymanager",
-                "version": "dev-1.2.7_pre",
-                "version_normalized": "dev-1.2.7_pre",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://bitbucket.org/etws/et_currencymanager",
-                    "reference": "97902e63d96dc7ba46440137abda22938fd14471"
+                    "reference": "ed569b5bb047ca3c9e5850c42a6651dd875adb7d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
                 },
-                "time": "2015-11-12 11:29:23",
+                "time": "2015-11-12 12:47:37",
                 "type": "magento-module",
                 "license": [
                     "EFL-1.0"
@@ -1329,12 +1329,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://bitbucket.org/etws/et_currencymanager",
-                    "reference": "97902e63d96dc7ba46440137abda22938fd14471"
+                    "reference": "ed569b5bb047ca3c9e5850c42a6651dd875adb7d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
                 },
-                "time": "2015-11-12 11:29:23",
+                "time": "2015-11-12 12:47:37",
                 "type": "magento-module",
                 "license": [
                     "EFL-1.0"
@@ -9873,7 +9873,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/metrika",
-                    "reference": "969dd387d5da4fd6ef8ec6c8107fcfaa1368f095"
+                    "reference": "dc45fb8b7b43e61aa55309262c4026730511f996"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9888,7 +9888,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-11-11 12:58:26",
+                "time": "2015-11-13 11:49:20",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -9932,6 +9932,74 @@
                 "description": "Metrika Module",
                 "homepage": "https://github.com/mygento/metrika"
             },
+            "1.2.0": {
+                "name": "mygento/metrika",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "dc45fb8b7b43e61aa55309262c4026730511f996"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-11-13 11:49:20",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika"
+            },
+            "2.0.0-RC": {
+                "name": "mygento/metrika",
+                "version": "2.0.0-RC",
+                "version_normalized": "2.0.0.0-RC",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/mygento/metrika",
+                    "reference": "83a010ad4b6021df9f6b211c647a16d04ff88698"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "magento/magento-composer-installer": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2015-11-13 07:28:17",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Mygento\\Metrika\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "Metrika Module",
+                "homepage": "https://github.com/mygento/metrika",
+                "keywords": [
+                    "magento",
+                    "metrika",
+                    "yandex"
+                ]
+            },
             "2.0.x-dev": {
                 "name": "mygento/metrika",
                 "version": "2.0.x-dev",
@@ -9939,23 +10007,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/metrika",
-                    "reference": "920da0396b68a48ea4d2a44277e48381d193a5e6"
+                    "reference": "2da06562bbcb06ee90152926a94fa21f4191b630"
                 },
                 "require": {
                     "magento/framework": "*",
                     "magento/magento-composer-installer": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2015-11-12 07:31:59",
+                "time": "2015-11-19 11:18:39",
                 "type": "magento2-module",
-                "extra": {
-                    "map": [
-                        [
-                            "*",
-                            "Mygento/Metrika"
-                        ]
-                    ]
-                },
                 "autoload": {
                     "files": [
                         "registration.php"
