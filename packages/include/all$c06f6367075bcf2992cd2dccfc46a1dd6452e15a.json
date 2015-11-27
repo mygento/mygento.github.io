@@ -9091,6 +9091,50 @@
                     "magento"
                 ]
             },
+            "2.5.5": {
+                "name": "mygento/exportymlpro",
+                "version": "2.5.5",
+                "version_normalized": "2.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexpro.git",
+                    "reference": "e29f00a259e9f0fdfd9ee2a120ce3ceb5d42dc35"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-11-27 08:44:43",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Yandex Market Export module",
+                "homepage": "https://bitbucket.org/mygento/yandexpro",
+                "keywords": [
+                    "magento"
+                ]
+            },
             "4.0.x-dev": {
                 "name": "mygento/exportymlpro",
                 "version": "4.0.x-dev",
@@ -9118,7 +9162,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "004fa4ae4b0d90eff056c7dbe24d7d398a99e600"
+                    "reference": "e29f00a259e9f0fdfd9ee2a120ce3ceb5d42dc35"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -9133,7 +9177,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-10 11:39:28",
+                "time": "2015-11-27 08:44:43",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -9924,10 +9968,10 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/mygento/metrika",
-                    "reference": "dc45fb8b7b43e61aa55309262c4026730511f996"
+                    "reference": "b6005be9c6e8b91fc54176a15139b8e780464ea7"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -9939,7 +9983,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-11-13 11:49:20",
+                "time": "2015-11-25 15:39:56",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -9947,7 +9991,20 @@
                 "license": [
                     "OSL-3.0"
                 ],
-                "description": "Metrika Module",
+                "authors": [
+                    {
+                        "name": "Nikita Tarasov",
+                        "email": "nikita@mygento.net",
+                        "homepage": "http://www.mygento.net/",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Yandex Metrika Integration to Magento",
                 "homepage": "https://github.com/mygento/metrika"
             },
             "1.1.0": {
@@ -12971,7 +13028,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "13a7988b3b0fe7262289cd7456ff7626c321e58c"
+                    "reference": "ba1d95ed2678c430cc6635cf96407fe371ae61ee"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -12979,7 +13036,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-11-10 19:46:06",
+                "time": "2015-11-25 14:56:22",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
