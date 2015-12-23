@@ -4,10 +4,7 @@
     "repositories": [
         { "type": "git", "url": "https://github.com/mygento/geoip"},
         { "type": "git", "url": "https://github.com/mygento/jquerylib"},
-        { "type": "git", "url": "https://github.com/mygento/currency" },
-        { "type": "git", "url": "https://github.com/mygento/cdn" },
         { "type": "git", "url": "https://github.com/mygento/simplepay" },
-        { "type": "git", "url": "https://github.com/mygento/coding-standard" },
         { "type": "git", "url": "https://github.com/EcomDev/EcomDev_PHPUnit.git"},
         { "type": "git", "url": "https://github.com/bragento/magento-core" },
         { "type": "git", "url": "https://github.com/AOEpeople/Aoe_Scheduler.git" },
