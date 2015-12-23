@@ -6,7 +6,6 @@
         { "type": "git", "url": "https://github.com/mygento/jquerylib"},
         { "type": "git", "url": "https://github.com/mygento/simplepay" },
         { "type": "git", "url": "https://github.com/EcomDev/EcomDev_PHPUnit.git"},
-        { "type": "git", "url": "https://github.com/bragento/magento-core" },
         { "type": "git", "url": "https://github.com/nexcess/magento-turpentine.git"},
         { "type": "git", "url": "git@bitbucket.org:mygento/sbrf.git"},
         { "type": "git", "url": "git@bitbucket.org:mygento/pdfinvoice.git"},
