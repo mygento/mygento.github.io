@@ -10839,10 +10839,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/openid.git",
-                    "reference": "343086dadf07645ce1ddf9fd6119ee4a78da9954"
+                    "reference": "8b2a50ad5dd1d664aedfc7874e3205f4e41eb96b"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -10853,7 +10853,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-04-01 08:43:51",
+                "time": "2015-12-23 19:40:43",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
@@ -11493,14 +11493,14 @@
                     "sberbank"
                 ]
             },
-            "dev-master": {
+            "1.1.1": {
                 "name": "mygento/sbrf",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/sbrf.git",
-                    "reference": "34873be7498fd86341c038e9a827f1647e8fd694"
+                    "reference": "67f2fea117140a9b50d9150d5bb26acc83efa6a4"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -11515,7 +11515,53 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-11-12 14:51:06",
+                "time": "2015-12-23 19:44:21",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "Module module",
+                "homepage": "http://www.mygento.ru/modules/invoice-bank-pd4-form.html",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "sberbank"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/sbrf",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/sbrf.git",
+                    "reference": "67f2fea117140a9b50d9150d5bb26acc83efa6a4"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-12-23 19:44:21",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -13042,10 +13088,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexmoney.git",
-                    "reference": "35555410dbf8b426a1ec0183c8e4113d93d0148c"
+                    "reference": "c734a7f77e448b8eb0b9f72e7d2b884e71a7a717"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -13056,7 +13102,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-06-08 11:27:05",
+                "time": "2015-12-23 19:39:53",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
