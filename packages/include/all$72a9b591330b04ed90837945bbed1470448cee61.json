@@ -7790,6 +7790,52 @@
                     "yandex"
                 ]
             },
+            "1.1.8": {
+                "name": "mygento/yandexkassa",
+                "version": "1.1.8",
+                "version_normalized": "1.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "08ad0424172468e5a505ddd4fd137f815686777d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-12-24 10:59:12",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/payment/yandex-kassa.html",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "yandex"
+                ]
+            },
             "2.0.x-dev": {
                 "name": "mygento/yandexkassa",
                 "version": "2.0.x-dev",
@@ -7841,7 +7887,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "bcb20f39e6b78d0c76a365c5f088b95f035a063a"
+                    "reference": "08ad0424172468e5a505ddd4fd137f815686777d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -7856,7 +7902,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-21 10:04:29",
+                "time": "2015-12-24 10:59:12",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
