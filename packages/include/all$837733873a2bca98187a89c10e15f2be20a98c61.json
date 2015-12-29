@@ -4408,10 +4408,10 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "26d11f22e657ba7f127a534b94cb51e361408a47"
+                    "reference": "22ca2258e74b5a7f1fe85733a0dec34ae0d684ce"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "3.0.2"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
@@ -4423,7 +4423,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-24 11:51:08",
+                "time": "2015-09-10 11:22:53",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -5025,88 +5025,6 @@
                     "magento",
                     "merchant"
                 ]
-            }
-        },
-        "mygento/jquerylib": {
-            "1.11.3": {
-                "name": "mygento/jquerylib",
-                "version": "1.11.3",
-                "version_normalized": "1.11.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/jquerylib",
-                    "reference": "8e22c412f8f78931e12d339d53a1e6cb93d194a6"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "time": "2015-01-30 10:59:26",
-                "type": "magento-module",
-                "license": [
-                    "AFL v3.0"
-                ],
-                "description": "Jquery Integration",
-                "homepage": "https://github.com/mygento/jquerylib"
-            },
-            "1.11.4": {
-                "name": "mygento/jquerylib",
-                "version": "1.11.4",
-                "version_normalized": "1.11.4.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/jquerylib",
-                    "reference": "b4504618abf03b127efb9f86ed58f641eaf28a68"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "time": "2015-03-31 21:27:39",
-                "type": "magento-module",
-                "license": [
-                    "AFL v3.0"
-                ],
-                "description": "Jquery Integration",
-                "homepage": "https://github.com/mygento/jquerylib"
-            },
-            "dev-master": {
-                "name": "mygento/jquerylib",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/jquerylib",
-                    "reference": "c5337bd360d3551354b3df31a196cad5f12551c0"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "time": "2015-04-27 20:30:34",
-                "type": "magento-module",
-                "license": [
-                    "OSL-3.0"
-                ],
-                "description": "Jquery Integration",
-                "homepage": "https://github.com/mygento/jquerylib"
-            },
-            "dev-dev": {
-                "name": "mygento/jquerylib",
-                "version": "dev-dev",
-                "version_normalized": "dev-dev",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/mygento/jquerylib",
-                    "reference": "ccd049d0db8eeec5d4f586883162880c7121b131"
-                },
-                "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
-                },
-                "time": "2015-01-30 10:44:58",
-                "type": "magento-module",
-                "license": [
-                    "AFL v3.0"
-                ],
-                "description": "Jquery Integration",
-                "homepage": "https://github.com/mygento/jquerylib"
             }
         },
         "mygento/mvendor": {
@@ -6066,6 +5984,143 @@
                 "keywords": [
                     "magento",
                     "retailrocket"
+                ]
+            }
+        },
+        "mygento/robokassa": {
+            "1.2.0": {
+                "name": "mygento/robokassa",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/robokassa",
+                    "reference": "441c01d4b6a775038608802b8120414d6e80ff1d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-12-29 12:46:31",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Robokassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/robokassa.html",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "1.2.1": {
+                "name": "mygento/robokassa",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/robokassa",
+                    "reference": "06eb2bbfdf6a9c22f70a38313e5b01e42ab9dfef"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-12-29 13:31:21",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Robokassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/robokassa.html",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/robokassa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/robokassa",
+                    "reference": "06eb2bbfdf6a9c22f70a38313e5b01e42ab9dfef"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-12-29 13:31:21",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Robokassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/robokassa.html",
+                "keywords": [
+                    "magento",
+                    "payment"
                 ]
             }
         },
@@ -7887,7 +7942,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "08ad0424172468e5a505ddd4fd137f815686777d"
+                    "reference": "ec4c3504ef5800b671a052b562dc87c4297c171e"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -7902,7 +7957,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-24 10:59:12",
+                "time": "2015-12-24 11:36:48",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
