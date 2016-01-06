@@ -7345,6 +7345,146 @@
                 "homepage": "http://www.mygento.ru/modules/spsr-express.html"
             }
         },
+        "mygento/webmoney": {
+            "1.2.0": {
+                "name": "mygento/webmoney",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/webmoney",
+                    "reference": "cbfd39d23b7219aa15f5ba2ede26cca0ef8b0645"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-10-28 10:21:02",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "WebMoney payment extension",
+                "homepage": "http://www.mygento.ru/modules/webmoney-payment-extension.html",
+                "keywords": [
+                    "magento",
+                    "shipping",
+                    "webmoney"
+                ]
+            },
+            "1.2.1": {
+                "name": "mygento/webmoney",
+                "version": "1.2.1",
+                "version_normalized": "1.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/webmoney",
+                    "reference": "3ddbc927c99de471eb8a444f407a6d781901ed1e"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-11-12 09:38:53",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "WebMoney payment extension",
+                "homepage": "http://www.mygento.ru/modules/webmoney-payment-extension.html",
+                "keywords": [
+                    "magento",
+                    "shipping",
+                    "webmoney"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/webmoney",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/webmoney",
+                    "reference": "e7cca2c95e21366957aa25f63b43841d7afd0763"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2015-11-12 12:48:50",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "WebMoney payment extension",
+                "homepage": "http://www.mygento.ru/modules/webmoney-payment-extension.html",
+                "keywords": [
+                    "magento",
+                    "shipping",
+                    "webmoney"
+                ]
+            }
+        },
         "mygento/yandexkassa": {
             "1.0.5": {
                 "name": "mygento/yandexkassa",
@@ -7891,6 +8031,52 @@
                     "yandex"
                 ]
             },
+            "1.1.9": {
+                "name": "mygento/yandexkassa",
+                "version": "1.1.9",
+                "version_normalized": "1.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "a46dcc052d57842f75d7128bcb7050b92cf14e4c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-01-05 20:15:09",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/payment/yandex-kassa.html",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "yandex"
+                ]
+            },
             "2.0.x-dev": {
                 "name": "mygento/yandexkassa",
                 "version": "2.0.x-dev",
@@ -7942,7 +8128,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "ec4c3504ef5800b671a052b562dc87c4297c171e"
+                    "reference": "a46dcc052d57842f75d7128bcb7050b92cf14e4c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -7957,7 +8143,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-24 11:36:48",
+                "time": "2016-01-05 20:15:09",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8354,7 +8540,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "9f4178cfaabc9079f1557f41a08124d6857d8d8d"
+                    "reference": "fdc1d16ac3658efec2bb17adda6e38155a82d3bd"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8362,7 +8548,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-12-17 20:17:52",
+                "time": "2015-12-30 13:55:45",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
