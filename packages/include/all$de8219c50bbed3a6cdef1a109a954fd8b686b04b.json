@@ -8215,14 +8215,14 @@
             }
         },
         "mygento/yandexmoney": {
-            "dev-master": {
+            "1.2.3": {
                 "name": "mygento/yandexmoney",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexmoney.git",
-                    "reference": "c734a7f77e448b8eb0b9f72e7d2b884e71a7a717"
+                    "reference": "d1576134519381c90142d0fc06a73293bf2c90fc"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8236,7 +8236,39 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-23 19:39:53",
+                "time": "2016-01-08 19:21:44",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": "."
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "description": "Yandex money payment module",
+                "homepage": "https://bitbucket.org/mygento/yandexmoney"
+            },
+            "dev-master": {
+                "name": "mygento/yandexmoney",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexmoney.git",
+                    "reference": "d1576134519381c90142d0fc06a73293bf2c90fc"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-01-08 19:21:44",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": "."
