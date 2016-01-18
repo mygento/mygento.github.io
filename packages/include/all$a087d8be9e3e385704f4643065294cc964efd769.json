@@ -2121,7 +2121,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/deloviye_linii.git",
-                    "reference": "71667258da715a017b3aa5304eddcc71486779c2"
+                    "reference": "2f60a8dd91487e747c0470f7b2e123c5e9624a33"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -2136,7 +2136,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-18 12:39:04",
+                "time": "2016-01-18 20:31:58",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -4408,7 +4408,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "22ca2258e74b5a7f1fe85733a0dec34ae0d684ce"
+                    "reference": "f849ea09e694979cb3a4976f421cac67e4f96ea8"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -4423,7 +4423,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-10 11:22:53",
+                "time": "2016-01-12 15:00:13",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8084,13 +8084,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "79dd9f0224d2c1be89352b69cf3aea9f1afa250c"
+                    "reference": "b5c34ef77c6b57d237a4c45d9e879f04d52e6645"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2015-12-21 12:03:40",
+                "time": "2016-01-18 15:26:24",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8107,7 +8107,7 @@
                     {
                         "name": "Mygento",
                         "email": "connect@mygento.net",
-                        "homepage": "http://www.mygento.net/"
+                        "homepage": "http://www.mygento.ru/"
                     }
                 ],
                 "description": "Модуль интеграции с платежным сервисом Яндекс.Касса",
@@ -8116,7 +8116,6 @@
                     "magento",
                     "yandex",
                     "Яндекс Касса",
-                    "Яндекс.Деньги",
                     "платежная система",
                     "яндекс"
                 ]
@@ -8507,14 +8506,14 @@
                 "description": "A Varnish extension for Magento.",
                 "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
             },
-            "dev-master": {
+            "0.6.8": {
                 "name": "nexcess/magento-turpentine",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "0.6.8",
+                "version_normalized": "0.6.8.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "35d44f51e84de419c189eea2baa0ec89c7a2ba39"
+                    "reference": "6ffc75169f63f3fda7d2f1196b341e0db498064d"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8522,7 +8521,36 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-10-12 14:56:06",
+                "time": "2016-01-14 14:47:37",
+                "type": "magento-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Headley",
+                        "email": "aheadley@nexcess.net"
+                    }
+                ],
+                "description": "A Varnish extension for Magento.",
+                "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
+            },
+            "dev-master": {
+                "name": "nexcess/magento-turpentine",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nexcess/magento-turpentine.git",
+                    "reference": "6ffc75169f63f3fda7d2f1196b341e0db498064d"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "replace": {
+                    "connect20/nexcessnet_turpentine": "self.version"
+                },
+                "time": "2016-01-14 14:47:37",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -8572,7 +8600,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "fdc1d16ac3658efec2bb17adda6e38155a82d3bd"
+                    "reference": "b6ca48311e3e17897f3a03be638ca03da7993488"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8580,7 +8608,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2015-12-30 13:55:45",
+                "time": "2016-01-14 14:27:51",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
@@ -8691,6 +8719,35 @@
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
                 "time": "2015-10-15 13:25:05",
+                "type": "magento-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Alex Headley",
+                        "email": "aheadley@nexcess.net"
+                    }
+                ],
+                "description": "A Varnish extension for Magento.",
+                "homepage": "http://www.magentocommerce.com/magento-connect/2984.html"
+            },
+            "dev-scrutinizer-patch-2": {
+                "name": "nexcess/magento-turpentine",
+                "version": "dev-scrutinizer-patch-2",
+                "version_normalized": "dev-scrutinizer-patch-2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/nexcess/magento-turpentine.git",
+                    "reference": "e7a32446e3514c8efc742b2ad14ce1ba8660ced3"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "replace": {
+                    "connect20/nexcessnet_turpentine": "self.version"
+                },
+                "time": "2016-01-14 14:02:00",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
