@@ -5617,6 +5617,47 @@
                 "description": "pdfinvoice payment module",
                 "homepage": "https://bitbucket.org/mygento/pdfinvoice"
             },
+            "2.0.5": {
+                "name": "mygento/pdfinvoice",
+                "version": "2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/pdfinvoice.git",
+                    "reference": "43f2387f3367731df871f7a5fd56327561541378"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "1.*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-01-20 13:45:50",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Платежный модуль Счет для Юр.лиц",
+                "homepage": "http://www.mygento.ru/modules/invoice-juristic-pdf.html"
+            },
             "dev-master": {
                 "name": "mygento/pdfinvoice",
                 "version": "dev-master",
@@ -5624,30 +5665,39 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/pdfinvoice.git",
-                    "reference": "64cb47e4fd846213a2e3a0703ae2ab1ca5acdf8a"
+                    "reference": "197d580cd5cdac1d420ea40de2120376cb9fb2d8"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "1.*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-10-20 16:26:27",
+                "time": "2016-01-20 13:51:30",
                 "type": "magento-module",
                 "extra": {
-                    "magento-root-dir": "."
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
                 },
                 "license": [
                     "proprietary"
                 ],
-                "description": "pdfinvoice payment module",
-                "homepage": "https://bitbucket.org/mygento/pdfinvoice"
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Платежный модуль Счет для Юр.лиц",
+                "homepage": "http://www.mygento.ru/modules/invoice-juristic-pdf.html"
             }
         },
         "mygento/platron": {
