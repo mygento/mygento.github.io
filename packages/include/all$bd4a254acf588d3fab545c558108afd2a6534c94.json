@@ -5665,7 +5665,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/pdfinvoice.git",
-                    "reference": "197d580cd5cdac1d420ea40de2120376cb9fb2d8"
+                    "reference": "da281071cc294cc05f47e1118f6b5b9ad5660151"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -5680,7 +5680,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-01-20 13:51:30",
+                "time": "2016-01-20 15:16:51",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -6307,6 +6307,51 @@
                     "payment"
                 ]
             },
+            "1.0.3": {
+                "name": "mygento/sberbank",
+                "version": "1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/sberbank",
+                    "reference": "2c7a7395435dea923acb9386f7080500a03bbfaf"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "1.*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-01-31 18:34:34",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Module module",
+                "homepage": "https://bitbucket.org/mygento/sberbank",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
             "dev-master": {
                 "name": "mygento/sberbank",
                 "version": "dev-master",
@@ -6314,25 +6359,26 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/sberbank",
-                    "reference": "86837c74fb5930fe6a31dab7225a0feb976e4a8a"
+                    "reference": "2c7a7395435dea923acb9386f7080500a03bbfaf"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
+                    "mygento/coding-standard": "1.*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-08-06 14:33:48",
+                "time": "2016-01-31 18:34:34",
                 "type": "magento-module",
                 "extra": {
-                    "magento-root-dir": "."
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
                 },
                 "license": [
                     "proprietary"
@@ -6797,7 +6843,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/shortmessage",
-                    "reference": "3bbe6c1e07338f1b7c794d4962d7a0f4b01e2233"
+                    "reference": "e2f662791a3183f4f559e1a88369e4fb66be932e"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -6812,7 +6858,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-11-03 16:19:44",
+                "time": "2016-01-25 13:59:19",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8134,13 +8180,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "b5c34ef77c6b57d237a4c45d9e879f04d52e6645"
+                    "reference": "8acf1a992f001a1c214786bf10b783bf0668a4c6"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-01-18 15:26:24",
+                "time": "2016-01-29 13:34:12",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8650,7 +8696,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "b6ca48311e3e17897f3a03be638ca03da7993488"
+                    "reference": "62b3fc19065dd8e8e1689cac3e6c743dfcb32da2"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8658,7 +8704,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2016-01-14 14:27:51",
+                "time": "2016-01-27 14:25:38",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
