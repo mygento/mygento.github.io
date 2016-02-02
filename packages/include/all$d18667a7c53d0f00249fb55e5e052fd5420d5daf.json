@@ -6843,7 +6843,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/shortmessage",
-                    "reference": "e2f662791a3183f4f559e1a88369e4fb66be932e"
+                    "reference": "a78c7e89dfe8b116d70d889007c55961721ce967"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -6858,7 +6858,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-01-25 13:59:19",
+                "time": "2016-02-02 11:59:06",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8696,7 +8696,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "62b3fc19065dd8e8e1689cac3e6c743dfcb32da2"
+                    "reference": "ebec22939548398237531120e22b1805074c9222"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8704,7 +8704,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2016-01-27 14:25:38",
+                "time": "2016-02-01 15:55:23",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
