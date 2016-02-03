@@ -5700,6 +5700,49 @@
                 "homepage": "http://www.mygento.ru/modules/invoice-juristic-pdf.html"
             }
         },
+        "mygento/pickpoint": {
+            "2.0.x-dev": {
+                "name": "mygento/pickpoint",
+                "version": "2.0.x-dev",
+                "version_normalized": "2.0.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/pickpoint",
+                    "reference": "ffca844aaad4ad61f312addaf1379b5dc4af00ff"
+                },
+                "require": {
+                    "magento/framework": "*",
+                    "php": "~5.5.0|~5.6.0|~7.0.0"
+                },
+                "time": "2016-02-02 20:42:50",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Mygento\\Pickpoint\\": ""
+                    }
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Модуль интеграции с службой доставки PickPoint",
+                "homepage": "http://www.mygento.ru/modules/magento2-pickpoint.html",
+                "keywords": [
+                    "delivery",
+                    "magento",
+                    "pickpoint"
+                ]
+            }
+        },
         "mygento/platron": {
             "1.0.9": {
                 "name": "mygento/platron",
@@ -8180,13 +8223,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "8acf1a992f001a1c214786bf10b783bf0668a4c6"
+                    "reference": "a758b8906d39930544d25d37fe087afc218a723f"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-01-29 13:34:12",
+                "time": "2016-02-03 16:20:13",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8207,7 +8250,7 @@
                     }
                 ],
                 "description": "Модуль интеграции с платежным сервисом Яндекс.Касса",
-                "homepage": "http://www.mygento.ru/modules/yandex-kassa.html",
+                "homepage": "http://www.mygento.ru/modules/magento2-yandex-kassa.html",
                 "keywords": [
                     "magento",
                     "yandex",
@@ -8696,7 +8739,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "ebec22939548398237531120e22b1805074c9222"
+                    "reference": "ba025294ebee5bfd4926e157206316b4b5295e72"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -8704,7 +8747,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2016-02-01 15:55:23",
+                "time": "2016-02-03 13:56:14",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"

@@ -31,8 +31,9 @@
         { "type": "git", "url": "git@bitbucket.org:mygento/spsr"},
         { "type": "git", "url": "git@bitbucket.org:mygento/yandexkassa"},
         { "type": "git", "url": "git@bitbucket.org:mygento/retailrocket"},
-	{ "type": "git", "url": "git@bitbucket.org:mygento/robokassa"},
-	{ "type": "git", "url": "git@bitbucket.org:mygento/webmoney"}
+        { "type": "git", "url": "git@bitbucket.org:mygento/robokassa"},
+        { "type": "git", "url": "git@bitbucket.org:mygento/webmoney"},
+        { "type": "git", "url": "git@bitbucket.org:mygento/pickpoint"}
     ],
     "require-all": true
 }
