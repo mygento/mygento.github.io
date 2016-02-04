@@ -8223,13 +8223,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "a758b8906d39930544d25d37fe087afc218a723f"
+                    "reference": "2e0947f37ec5e9d71e8a4f9f6241afe77e5351f6"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-02-03 16:20:13",
+                "time": "2016-02-03 17:52:18",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
