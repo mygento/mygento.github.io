@@ -2579,29 +2579,29 @@
                     "shipping"
                 ]
             },
-            "dev-master": {
+            "2.1.0": {
                 "name": "mygento/dpd",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/dpd",
-                    "reference": "e08dc519a3c9741f8c2571d97e73caf28b28e06f"
+                    "reference": "757d8400707a9ab3d7c26023068974d1db0839ec"
                 },
                 "require": {
-                    "magento-hackathon/magento-composer-installer": "*"
+                    "magento-hackathon/magento-composer-installer": "3.*"
                 },
                 "require-dev": {
                     "jakub-onderka/php-console-highlighter": "0.*",
                     "jakub-onderka/php-parallel-lint": "0.*",
                     "magento-ecg/coding-standard": "dev-master",
-                    "mygento/coding-standard": "*",
+                    "mygento/coding-standard": "1.*",
                     "phpmd/phpmd": "@stable",
                     "sebastian/phpcpd": "*",
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-11-02 12:13:02",
+                "time": "2016-02-10 13:26:43",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -2617,7 +2617,53 @@
                         "homepage": "http://www.mygento.net/"
                     }
                 ],
-                "description": "DPD shipping module",
+                "description": "DPD Russia shipping module",
+                "homepage": "http://www.mygento.ru/modules/dpd-magento.html",
+                "keywords": [
+                    "dpd",
+                    "magento",
+                    "shipping"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/dpd",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/dpd",
+                    "reference": "757d8400707a9ab3d7c26023068974d1db0839ec"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "1.*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-02-10 13:26:43",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.net",
+                        "homepage": "http://www.mygento.net/"
+                    }
+                ],
+                "description": "DPD Russia shipping module",
                 "homepage": "http://www.mygento.ru/modules/dpd-magento.html",
                 "keywords": [
                     "dpd",
@@ -5752,13 +5798,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/pickpoint",
-                    "reference": "2ce2b29209b54f8fb5e42e34827d91681296616f"
+                    "reference": "db9203551164b7ad8b1d262cdae91ce151f7b825"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-02-04 20:59:44",
+                "time": "2016-02-10 15:33:09",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
