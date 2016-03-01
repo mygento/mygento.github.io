@@ -481,14 +481,14 @@
                     "payment"
                 ]
             },
-            "dev-master": {
+            "1.1.8": {
                 "name": "mygento/alfabank",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.1.8",
+                "version_normalized": "1.1.8.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/alfabank",
-                    "reference": "82890b9eb80492de79339ad964f3d2e74f99000c"
+                    "reference": "f769f95007c4a80aba84e2d680d34f23602cf87a"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -503,7 +503,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-07-16 12:54:03",
+                "time": "2016-02-29 16:15:07",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -522,6 +522,97 @@
                 "description": "Alfabank payment module",
                 "homepage": "https://bitbucket.org/mygento/alfabank",
                 "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "1.1.8.x-dev": {
+                "name": "mygento/alfabank",
+                "version": "1.1.8.x-dev",
+                "version_normalized": "1.1.8.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/alfabank",
+                    "reference": "64d43e890f5a51b41d39f4d226106b6e018d056c"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-03-01 07:21:52",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Alfabank payment module",
+                "homepage": "https://bitbucket.org/mygento/alfabank",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/alfabank",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/alfabank",
+                    "reference": "afe5411abcb6c5cec1776fc08bf36d83fcf1257f"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-03-01 07:25:23",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Alfabank payment module",
+                "homepage": "http://www.mygento.ru/modules/bank-alfabank.html",
+                "keywords": [
+                    "alfabank",
                     "magento",
                     "payment"
                 ]
@@ -4049,13 +4140,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "6169ba4eeea6e4704434d90b6542c2273b8cf27d"
+                    "reference": "44d9877d803c83c1d350a4bc1048e2223e17f3d6"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2015-12-21 15:19:52",
+                "time": "2016-02-18 19:55:42",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -5798,13 +5889,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/pickpoint",
-                    "reference": "db9203551164b7ad8b1d262cdae91ce151f7b825"
+                    "reference": "fa6d0f7d8157516feee57321806ca9ae8bf19110"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-02-10 15:33:09",
+                "time": "2016-02-24 21:39:10",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -6261,14 +6352,14 @@
                     "payment"
                 ]
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "mygento/robokassa",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/robokassa",
-                    "reference": "06eb2bbfdf6a9c22f70a38313e5b01e42ab9dfef"
+                    "reference": "fb5b17e93c1b32d5e662d663e9d729441ad9d1bd"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -6283,7 +6374,97 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-29 13:31:21",
+                "time": "2016-02-11 11:49:05",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Robokassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/robokassa.html",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "1.2.3": {
+                "name": "mygento/robokassa",
+                "version": "1.2.3",
+                "version_normalized": "1.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/robokassa",
+                    "reference": "079a0d817251b2ee69b3a1e02cb1c2340cdd3cd1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-02-18 20:29:21",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Robokassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/robokassa.html",
+                "keywords": [
+                    "magento",
+                    "payment"
+                ]
+            },
+            "dev-master": {
+                "name": "mygento/robokassa",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/robokassa",
+                    "reference": "079a0d817251b2ee69b3a1e02cb1c2340cdd3cd1"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-02-18 20:29:21",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8358,13 +8539,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "07ab6f7e6000a38e44b8cbd9297c5ea50bcb4d40"
+                    "reference": "f326943e47733013672d280d6b61b8df6f57619d"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-02-04 21:22:23",
+                "time": "2016-02-24 21:01:21",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
@@ -8401,7 +8582,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "a46dcc052d57842f75d7128bcb7050b92cf14e4c"
+                    "reference": "988b49b3feb86adfd349be45854fc2fc7b408e37"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8416,7 +8597,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-01-05 20:15:09",
+                "time": "2016-02-24 11:33:31",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8447,7 +8628,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "43653f8dd6ddf43653d38edfda4b96f9941ba66b"
+                    "reference": "3f7d59f66363e92fb7f2e7aa8cc8066350112a4c"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8462,7 +8643,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-09-17 12:31:19",
+                "time": "2016-02-19 14:47:52",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8483,7 +8664,7 @@
                 "keywords": [
                     "magento",
                     "payment",
-                    "shipping"
+                    "yandex"
                 ]
             }
         },
