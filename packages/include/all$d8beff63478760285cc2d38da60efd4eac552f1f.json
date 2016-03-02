@@ -5889,13 +5889,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/pickpoint",
-                    "reference": "fa6d0f7d8157516feee57321806ca9ae8bf19110"
+                    "reference": "57cf7c3e0ccb74ea746435e49d3232adb93c1505"
                 },
                 "require": {
                     "magento/framework": "*",
                     "php": "~5.5.0|~5.6.0|~7.0.0"
                 },
-                "time": "2016-02-24 21:39:10",
+                "time": "2016-03-01 22:00:48",
                 "type": "magento2-module",
                 "autoload": {
                     "files": [
