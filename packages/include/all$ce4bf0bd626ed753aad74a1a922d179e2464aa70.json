@@ -4589,7 +4589,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexpro.git",
-                    "reference": "f849ea09e694979cb3a4976f421cac67e4f96ea8"
+                    "reference": "fd9e3ab562b97e84af01fac8d2c9afb1543f92ef"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -4604,7 +4604,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-01-12 15:00:13",
+                "time": "2016-03-09 20:12:48",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -7727,7 +7727,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/spsr",
-                    "reference": "cb1c66c2c69201b312c5bc9f17a6b0e6b2f605aa"
+                    "reference": "d9ed52560232a5afb6dd195ad91067ed05c28d70"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -7742,7 +7742,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-10-29 14:58:33",
+                "time": "2016-03-10 20:59:25",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8164,6 +8164,52 @@
                     "shipping"
                 ]
             },
+            "1.1.11": {
+                "name": "mygento/yandexkassa",
+                "version": "1.1.11",
+                "version_normalized": "1.1.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:mygento/yandexkassa",
+                    "reference": "3f8bf88f0e7e643b769e02f874cf378c1ebf69ce"
+                },
+                "require": {
+                    "magento-hackathon/magento-composer-installer": "3.*"
+                },
+                "require-dev": {
+                    "jakub-onderka/php-console-highlighter": "0.*",
+                    "jakub-onderka/php-parallel-lint": "0.*",
+                    "magento-ecg/coding-standard": "dev-master",
+                    "mygento/coding-standard": "*",
+                    "phpmd/phpmd": "@stable",
+                    "sebastian/phpcpd": "*",
+                    "sebastian/phpdcd": "*",
+                    "squizlabs/php_codesniffer": "2.*"
+                },
+                "time": "2016-03-14 13:08:42",
+                "type": "magento-module",
+                "extra": {
+                    "magento-root-dir": ".",
+                    "with-bootstrap-patch": false
+                },
+                "license": [
+                    "proprietary"
+                ],
+                "authors": [
+                    {
+                        "name": "Mygento",
+                        "email": "connect@mygento.ru",
+                        "homepage": "http://www.mygento.ru/"
+                    }
+                ],
+                "description": "Yandex Kassa Payment module",
+                "homepage": "http://www.mygento.ru/modules/payment/yandex-kassa.html",
+                "keywords": [
+                    "magento",
+                    "payment",
+                    "yandex"
+                ]
+            },
             "1.1.2": {
                 "name": "mygento/yandexkassa",
                 "version": "1.1.2",
@@ -8582,7 +8628,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "988b49b3feb86adfd349be45854fc2fc7b408e37"
+                    "reference": "3f8bf88f0e7e643b769e02f874cf378c1ebf69ce"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8597,7 +8643,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-02-24 11:33:31",
+                "time": "2016-03-14 13:08:42",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -9055,7 +9101,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/nexcess/magento-turpentine.git",
-                    "reference": "ba025294ebee5bfd4926e157206316b4b5295e72"
+                    "reference": "e65058f2ae68b669e9cf15837604d110525ca652"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "*"
@@ -9063,7 +9109,7 @@
                 "replace": {
                     "connect20/nexcessnet_turpentine": "self.version"
                 },
-                "time": "2016-02-03 13:56:14",
+                "time": "2016-03-07 12:58:47",
                 "type": "magento-module",
                 "license": [
                     "GPL-2.0+"
