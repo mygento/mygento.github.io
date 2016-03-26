@@ -1876,7 +1876,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/cdek",
-                    "reference": "72f7129b214f4ccd899b1f753846f50e4f84916a"
+                    "reference": "6d581267d6ee57e0d509272b1cd2ac1dd9b97525"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -1891,7 +1891,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2015-12-21 12:32:57",
+                "time": "2016-03-26 11:15:40",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
@@ -8766,7 +8766,7 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:mygento/yandexkassa",
-                    "reference": "8dfdc4757ca2f24a7e05a001b4e8a5d53c2acc78"
+                    "reference": "797ab39f75297d7c08b1e7ecd20e60e2ebd15a98"
                 },
                 "require": {
                     "magento-hackathon/magento-composer-installer": "3.*"
@@ -8781,7 +8781,7 @@
                     "sebastian/phpdcd": "*",
                     "squizlabs/php_codesniffer": "2.*"
                 },
-                "time": "2016-03-25 15:13:38",
+                "time": "2016-03-25 19:45:23",
                 "type": "magento-module",
                 "extra": {
                     "magento-root-dir": ".",
