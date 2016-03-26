@@ -1,0 +1,32 @@
+.content-block,.content-block-wide {
+    padding: $spacing-unit;
+    .content {
+        width: $content_width;
+        margin: 0 auto;
+    }
+}
+.content-block {
+    width: $content_width;
+    margin: 0 auto;
+}
+
+.content-block-wide {
+    .content-banner {
+        background-position: 75%;
+        background-repeat: no-repeat;
+        background-size: 200px;
+    }
+}
+
+.home {
+    .content-block-wide {
+        background-color: #ed6739;
+        .content-banner {
+            background-image: url('/img/documentation.svg');
+            color: #fff;
+        }
+    }
+    .content-block:nth-child(2) {
+        background: #f2f2f2;
+    }
+}

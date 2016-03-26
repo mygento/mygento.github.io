@@ -1,0 +1,22 @@
+---
+layout: default_wide
+---
+<div class="mage1">
+  <div class="content-block-wide">
+      <div class="content content-banner">
+          <h1>FAQ</h1>
+      </div>
+  </div>
+  <div class="content-block">
+      <ul class="post-list">
+        {% for post in site.categories.faq %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+  </div>
+</div>

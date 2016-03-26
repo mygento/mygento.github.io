@@ -1,0 +1,14 @@
+# Site settings
+title: 'Документация'
+description: ''
+url: "https://mygento.github.io"
+twitter_username: mygento_team
+github_username:  mygento
+email: 'support@mygento.ru'
+# Build settings
+markdown: kramdown
+
+#incremental: true
+gems:
+  - jekyll-redirect-from
+exclude: ['scss','bin','node_modules','packages']
